@@ -1,0 +1,1358 @@
+--------- beginning of system
+07-26 12:30:04.063 D/ActivityManager( 1659): freezing 1694 com.android.vending
+07-26 12:30:04.071 D/ActivityManager( 1659): freezing 17112 com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+--------- beginning of main
+07-26 12:30:04.081 D/InetDiagMessage( 1659): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-26 12:30:04.083 D/InetDiagMessage( 1659): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+07-26 12:30:04.084 D/InetDiagMessage( 1659): Destroyed live tcp sockets for uids={10157} in 5ms
+07-26 12:30:04.088 D/InetDiagMessage( 1659): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-26 12:30:04.091 D/InetDiagMessage( 1659): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+07-26 12:30:04.091 D/InetDiagMessage( 1659): Destroyed live tcp sockets for uids={99103} in 7ms
+07-26 12:30:06.317 I/pixel-thermal( 2092): quiet_therm:36.313 raw data: quiet_therm:36313 
+07-26 12:30:06.762 W/TracingMuxer( 1559): type=1400 audit(0.0:37456): avc:  denied  { write } for  name="traced_producer" dev="tmpfs" ino=1285 scontext=u:r:gxp_logging:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+07-26 12:30:08.462 D/TemperatureStateSource( 2612): sequence=4980 actualDelay=10003
+07-26 12:30:08.464 D/TemperatureStateSource( 2612): Reading temperature: sequence=4981
+07-26 12:30:08.475 I/pixel-thermal( 2092): VIRTUAL-SKIN:36.4864 raw data: VIRTUAL-SKIN:36486.4 VIRTUAL-SKIN-SUB-0:35437.6 VIRTUAL-SKIN-SUB-1:35850.6 VIRTUAL-SKIN-SUB-2:35727.8 VIRTUAL-SKIN-SUB-3:36486.4 VIRTUAL-SKIN-SUB-4:34821.3 VIRTUAL-SKIN-SUB-5:34990.6 VIRTUAL-SKIN-SUB-6:35667.9 VIRTUAL-SKIN-SUB-7:35407.9 VIRTUAL-SKIN-SUB-8:35696 battery:36300 cam_therm:36202 charge_therm:40975 disp_therm:36157 neutral_therm:38339 north_therm:35890 quiet_therm:36313 soc_therm:37827 usb_pwr_therm:37092 
+07-26 12:30:08.477 D/TemperatureStateSource( 2612): getDeviceTemperatures: sequence=4981 deviceTemperatureType=3 temperatureSource=0 temperatures=[36.486393]
+07-26 12:30:08.477 D/BusinessScope( 2612): Enqueuing the block
+07-26 12:30:08.477 D/TemperatureStateSource( 2612): sequence=4981 waitTime=10000
+07-26 12:30:08.478 D/BusinessScope( 2612): Start running the #11172 block
+07-26 12:30:08.481 I/pixel-thermal( 2092): VIRTUAL-SKIN:36.4864 raw data: VIRTUAL-SKIN:36486.4 
+07-26 12:30:08.481 I/TemperatureStateSource( 2612): temperature was set
+07-26 12:30:08.484 D/BusinessScope( 2612): Enqueuing the block
+07-26 12:30:08.484 D/ImpulseStateSource( 2612): Notify clients: 5585
+07-26 12:30:08.484 D/BusinessScope( 2612): Finish running the #11172 block
+07-26 12:30:08.485 D/BusinessScope( 2612): Start running the #11173 block
+07-26 12:30:08.493 D/BusinessScope( 2612): Finish running the #11173 block
+07-26 12:30:08.932 W/pixelstats-vendor( 3392): Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: android.frameworks.stats.IStats/default
+07-26 12:30:09.428 I/bt_btm_pm( 2596): system/stack/acl/btm_pm.cc:702 btm_pm_proc_mode_change: Power mode switched from immediate:sniff[2] to immediate:active[0]
+07-26 12:30:09.800 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-LIGHT-ODPM:36.4864 raw data: VIRTUAL-SKIN:36486.4 VIRTUAL-SKIN-CPU-LIGHT-ODPM:36486.4 
+07-26 12:30:09.809 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-LIGHT-ODPM power_budget=1805.44 err=2.51361 s_power=800 time_elapsed_ms=7016 p=1005.44 i=0 d=0 compensation=0 budget transient=0 control target=2
+07-26 12:30:09.809 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-LIGHT-ODPM binded power rails: (S4M_VDD_CPUCL0: 54.19 mW)(S2M_VDD_CPUCL2: 0.94 mW)(S3M_VDD_CPUCL1: 0.18 mW)
+07-26 12:30:09.810 I/pixel-thermal( 2092): cellular-emergency:36.4864 raw data: VIRTUAL-SKIN:36486.4 cellular-emergency:36486.4 
+07-26 12:30:09.810 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-MID:36.4864 raw data: VIRTUAL-SKIN:36486.4 VIRTUAL-SKIN-CPU-MID:36486.4 
+07-26 12:30:09.810 I/pixel-thermal( 2092): VIRTUAL-SKIN-HINT:36.4864 raw data: VIRTUAL-SKIN:36486.4 VIRTUAL-SKIN-HINT:36486.4 
+07-26 12:30:09.810 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-HIGH:36.4864 raw data: VIRTUAL-SKIN:36486.4 VIRTUAL-SKIN-CPU-HIGH:36486.4 
+07-26 12:30:09.810 I/pixel-thermal( 2092): VIRTUAL-SKIN-SOC:36.4864 raw data: VIRTUAL-SKIN:36486.4 VIRTUAL-SKIN-SOC:36486.4 
+07-26 12:30:09.811 I/pixel-thermal( 2092): VIRTUAL-SKIN-SOC power_budget=3354.08 err=8.51361 s_power=800 time_elapsed_ms=7016 p=2554.08 i=0 d=0 compensation=0 budget transient=0 control target=3
+07-26 12:30:09.811 I/pixel-thermal( 2092): VIRTUAL-SKIN-SOC binded power rails: (S4M_VDD_CPUCL0: 54.19 mW)(S2M_VDD_CPUCL2: 0.94 mW)(S3M_VDD_CPUCL1: 0.18 mW)(S2S_VDD_G3D: 0.45 mW)(S7M_VDD_TPU: 0.00 mW)
+07-26 12:30:09.811 I/pixel-thermal( 2092): VIRTUAL-SKIN:36.4864 raw data: VIRTUAL-SKIN:36486.4 
+07-26 12:30:09.811 I/pixel-thermal( 2092): VIRTUAL-SKIN-GPU:36.4864 raw data: VIRTUAL-SKIN:36486.4 VIRTUAL-SKIN-GPU:36486.4 
+07-26 12:30:09.812 I/pixel-thermal( 2092): VIRTUAL-SKIN-SPEAKER:33.7366 raw data: VIRTUAL-SKIN-SPEAKER:33736.6 VIRTUAL-SKIN-SPEAKER-SUB-0:32209.5 VIRTUAL-SKIN-SPEAKER-SUB-1:33736.6 VIRTUAL-SKIN-SPEAKER-SUB-2:33585.4 VIRTUAL-SKIN-SPEAKER-SUB-3:33433.6 battery:36300 cam_therm:36202 charge_therm:40975 disp_therm:36157 neutral_therm:38339 north_therm:35890 quiet_therm:36313 soc_therm:37827 usb_pwr_therm:37092 
+07-26 12:30:09.813 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-WIRED:36.259 raw data: NO_WLC:1 VIRTUAL-SKIN-CHARGE:36259 VIRTUAL-SKIN-CHARGE-SUB-0:35775 VIRTUAL-SKIN-CHARGE-SUB-1:34977.9 VIRTUAL-SKIN-CHARGE-SUB-2:35784.2 VIRTUAL-SKIN-CHARGE-SUB-3:35956 VIRTUAL-SKIN-CHARGE-SUB-4:36259 VIRTUAL-SKIN-CHARGE-SUB-5:35824.6 VIRTUAL-SKIN-CHARGE-SUB-6:34590.9 VIRTUAL-SKIN-CHARGE-WIRED:36259 WLC_CHECK:1 battery:36300 cam_therm:36202 charge_therm:40975 disp_therm:36157 neutral_therm:38339 north_therm:35890 quiet_therm:36313 soc_therm:37827 thb_hda:54 usb_pwr_therm:37092 
+07-26 12:30:09.813 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-WIRED power_budget=3678.84 err=1.741 s_power=2404 time_elapsed_ms=7016 p=175.841 i=1099 d=0 compensation=0 budget transient=0 control target=2
+07-26 12:30:09.814 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-WIRED power budget=3646.16 after (PARTIAL_SYSTEM_POWER: 326.84 mW, cdev_weight: 0.100000) is excluded
+07-26 12:30:09.814 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-WIRED binded power rails: (PARTIAL_SYSTEM_POWER: 326.84 mW, cdev_weight: 0.100000)
+07-26 12:30:09.814 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-PERSIST:36.259 raw data: VIRTUAL-SKIN-CHARGE:36259 VIRTUAL-SKIN-CHARGE-PERSIST:36259 
+07-26 12:30:09.814 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-PERSIST power_budget=3909.52 err=4.741 s_power=2066 time_elapsed_ms=7016 p=777.524 i=1066 d=0 compensation=0 budget transient=0 control target=2
+07-26 12:30:09.814 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-PERSIST power budget=3857.23 after (PARTIAL_SYSTEM_POWER: 326.84 mW, cdev_weight: 0.160000) is excluded
+07-26 12:30:09.814 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-PERSIST binded power rails: (PARTIAL_SYSTEM_POWER: 326.84 mW, cdev_weight: 0.160000)
+07-26 12:30:10.522 I/pixel-thermal( 2092): disp_therm:36.157 raw data: disp_therm:36157 
+07-26 12:30:10.531 I/pixel-thermal( 2092): VIRTUAL-USB-UI:1 raw data: USB-MINUS-NEUTRAL:-1247 USB-MINUS-QUIET:779 USB_QUIET_RFFE:779 VIRTUAL-USB-UI:1 VIRTUAL-USB-UI-SUB0:0 VSYS_PWR_RFFE:0 neutral_therm:38339 quiet_therm:36313 usb_pwr_therm:37092 
+07-26 12:30:10.531 I/pixel-thermal( 2092): usb_pwr_therm:37.092 raw data: usb_pwr_therm:37092 
+07-26 12:30:10.532 I/pixel-thermal( 2092): cam_therm:36.202 raw data: cam_therm:36202 
+07-26 12:30:10.532 I/pixel-thermal( 2092): VIRTUAL-USB-THROTTLING:1 raw data: USB-MINUS-NEUTRAL:-1247 USB-MINUS-QUIET:779 USB_QUIET_RFFE:779 VIRTUAL-USB-THROTTLING:1 VIRTUAL-USB-THROTTLING-SUB0:0 usb_pwr_therm:37092 
+07-26 12:30:13.331 I/pixel-thermal( 2092): quiet_therm:36.291 raw data: quiet_therm:36291 
+07-26 12:30:14.244 I/bt_btm_pm( 2596): system/stack/acl/btm_pm.cc:702 btm_pm_proc_mode_change: Power mode switched from immediate:active[0] to immediate:sniff[2]
+07-26 12:30:14.411 D/ActivityManager( 1659): freezing 12790 com.android.settings
+07-26 12:30:15.255 I/l2c_csm ( 2596): system/stack/l2cap/l2c_csm.cc:215 l2c_csm_execute: Enter CSM, chnl_state:CST_OPEN [6] event:L2CEVT_L2CAP_DISCONNECT_REQ(0x11) lcid:0x0043 rcid:0x0045
+07-26 12:30:15.256 I/bt_btm_pm( 2596): system/stack/acl/btm_pm.cc:262 BTM_SetPowerMode: Setting power mode for peer:xx:xx:xx:xx:f2:e3 current_mode:immediate:sniff[2] new_mode:forced:active[0]
+07-26 12:30:15.256 I/bt_btm_pm( 2596): system/stack/acl/btm_pm.cc:555 btm_pm_snd_md_req: Switching from immediate:sniff[0x02] to immediate:active[0x00]
+07-26 12:30:15.260 W/l2c_csm ( 2596): system/stack/l2cap/l2c_csm.cc:1385 l2c_csm_open: Unable to set link policy active
+07-26 12:30:15.261 I/l2c_csm ( 2596): system/stack/l2cap/l2c_csm.cc:215 l2c_csm_execute: Enter CSM, chnl_state:CST_W4_L2CA_DISCONNECT_RSP [8] event:L2CEVT_L2CA_DISCONNECT_RSP(0x1c) lcid:0x0043 rcid:0x0045
+07-26 12:30:15.262 I/l2c_csm ( 2596): system/stack/l2cap/l2c_csm.cc:215 l2c_csm_execute: Enter CSM, chnl_state:CST_OPEN [6] event:L2CEVT_L2CAP_DISCONNECT_REQ(0x11) lcid:0x0047 rcid:0x0043
+07-26 12:30:15.262 I/bt_btm_pm( 2596): system/stack/acl/btm_pm.cc:250 BTM_SetPowerMode: Current power mode is hold or pending status or pending links state:immediate:sniff[2] pm_pending_link:11
+07-26 12:30:15.262 I/avrcp   ( 2596): system/profile/avrcp/connection_handler.cc:341 AcceptorControlCb: handle=0x0 result=0x0 addr=xx:xx:xx:xx:f2:e3
+07-26 12:30:15.262 I/avrcp   ( 2596): system/profile/avrcp/connection_handler.cc:416 AcceptorControlCb: Connection Closed Event
+07-26 12:30:15.262 I/avrcp   ( 2596): system/profile/avrcp/device.cc:1750 DeviceDisconnected: xx:xx:xx:xx:f2:e3 : Device was disconnected
+07-26 12:30:15.264 I/l2c_csm ( 2596): system/stack/l2cap/l2c_csm.cc:215 l2c_csm_execute: Enter CSM, chnl_state:CST_W4_L2CA_DISCONNECT_RSP [8] event:L2CEVT_L2CA_DISCONNECT_RSP(0x1c) lcid:0x0047 rcid:0x0043
+07-26 12:30:15.265 I/l2c_csm ( 2596): system/stack/l2cap/l2c_csm.cc:215 l2c_csm_execute: Enter CSM, chnl_state:CST_OPEN [6] event:L2CEVT_L2CAP_DISCONNECT_REQ(0x11) lcid:0x0046 rcid:0x0042
+07-26 12:30:15.265 I/AvrcpTargetService( 2596): deviceDisconnected: device=XX:XX:XX:XX:F2:E3
+07-26 12:30:15.266 I/bt_btm_pm( 2596): system/stack/acl/btm_pm.cc:250 BTM_SetPowerMode: Current power mode is hold or pending status or pending links state:immediate:sniff[2] pm_pending_link:11
+07-26 12:30:15.266 I/bluetooth-a2dp( 2596): system/bta/av/bta_av_main.cc:401 bta_av_conn_cback: conn_cback bd_addr: xx:xx:xx:xx:f2:e3, scb_index: 0
+07-26 12:30:15.266 I/l2c_csm ( 2596): system/stack/l2cap/l2c_csm.cc:215 l2c_csm_execute: Enter CSM, chnl_state:CST_W4_L2CA_DISCONNECT_RSP [8] event:L2CEVT_L2CA_DISCONNECT_RSP(0x1c) lcid:0x0046 rcid:0x0042
+07-26 12:30:15.267 I/l2c_csm ( 2596): system/stack/l2cap/l2c_csm.cc:215 l2c_csm_execute: Enter CSM, chnl_state:CST_OPEN [6] event:L2CEVT_L2CAP_DISCONNECT_REQ(0x11) lcid:0x0044 rcid:0x0041
+07-26 12:30:15.267 I/bt_btm_pm( 2596): system/stack/acl/btm_pm.cc:250 BTM_SetPowerMode: Current power mode is hold or pending status or pending links state:immediate:sniff[2] pm_pending_link:11
+07-26 12:30:15.267 I/bluetooth( 2596): system/stack/rfcomm/rfc_mx_fsm.cc:70 rfc_mx_sm_execute: RFCOMM peer:xx:xx:xx:xx:f2:e3 event:RFC_MX_EVENT_DISC_IND state:RFC_MX_STATE_CONNECTED
+07-26 12:30:15.267 I/rfcomm  ( 2596): system/stack/rfcomm/port_rfc.cc:1048 port_rfc_closed: RFCOMM connection closed, index=3, state=2, reason=Peer connection failed[16], UUID=0x111f, bd_addr=xx:xx:xx:xx:f2:e3, is_server=true
+07-26 12:30:15.268 I/l2c_csm ( 2596): system/stack/l2cap/l2c_csm.cc:215 l2c_csm_execute: Enter CSM, chnl_state:CST_W4_L2CA_DISCONNECT_RSP [8] event:L2CEVT_L2CA_DISCONNECT_RSP(0x1c) lcid:0x0044 rcid:0x0041
+07-26 12:30:15.268 I/bluetooth-a2dp( 2596): system/bta/av/bta_av_ssm.cc:442 bta_av_ssm_execute: peer xx:xx:xx:xx:f2:e3 p_scb=0x41(0x75801e0100) AV event=0x121e(STR_CLOSE) state=3(OPEN) -> 0(INIT)
+07-26 12:30:15.268 W/bluetooth-a2dp( 2596): system/bta/av/bta_av_aact.cc:2468 bta_av_str_closed: peer xx:xx:xx:xx:f2:e3 bta_handle:0x41 open_status:0 chnl:64 co_started:0
+07-26 12:30:15.270 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:655 init: 
+07-26 12:30:15.270 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: SBC
+07-26 12:30:15.270 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:692 init: updated SBC codec priority to 1001
+07-26 12:30:15.270 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: AAC
+07-26 12:30:15.270 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:692 init: updated AAC codec priority to 2001
+07-26 12:30:15.270 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: aptX
+07-26 12:30:15.270 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:692 init: updated aptX codec priority to 3001
+07-26 12:30:15.270 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: aptX-HD
+07-26 12:30:15.270 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:692 init: updated aptX-HD codec priority to 4001
+07-26 12:30:15.270 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: LDAC
+07-26 12:30:15.270 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:692 init: updated LDAC codec priority to 5001
+07-26 12:30:15.270 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: LC3 not implemented
+07-26 12:30:15.273 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: Opus
+07-26 12:30:15.273 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:692 init: updated Opus codec priority to 7001
+07-26 12:30:15.273 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: UNKNOWN CODEC INDEX
+07-26 12:30:15.273 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: UNKNOWN CODEC INDEX
+07-26 12:30:15.273 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: UNKNOWN CODEC INDEX
+07-26 12:30:15.273 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: UNKNOWN CODEC INDEX
+07-26 12:30:15.273 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: SBC SINK
+07-26 12:30:15.273 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: AAC SINK
+07-26 12:30:15.273 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: LDAC SINK
+07-26 12:30:15.278 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_vendor_ldac_decoder.cc:128 A2DP_VendorLoadDecoderLdac: cannot open LDAC decoder library libldacBT_bco.so: dlopen failed: library "libldacBT_bco.so" not found
+07-26 12:30:15.278 E/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_vendor_ldac.cc:1333 init: cannot load the decoder
+07-26 12:30:15.278 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: Opus SINK
+07-26 12:30:15.278 W/bluetooth( 2596): system/gd/hci/hci_layer.cc:204 on_command_status: Received UNEXPECTED command status:COMMAND_DISALLOWED(0x0c) opcode:EXIT_SNIFF_MODE(0x0804)
+07-26 12:30:15.278 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: UNKNOWN CODEC INDEX
+07-26 12:30:15.278 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: UNKNOWN CODEC INDEX
+07-26 12:30:15.278 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: UNKNOWN CODEC INDEX
+07-26 12:30:15.279 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:162 createCodec: UNKNOWN CODEC INDEX
+07-26 12:30:15.279 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:716 init: initialized Source codec Opus, idx 6
+07-26 12:30:15.279 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:716 init: initialized Source codec LDAC, idx 4
+07-26 12:30:15.279 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:716 init: initialized Source codec aptX-HD, idx 3
+07-26 12:30:15.279 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:716 init: initialized Source codec aptX, idx 2
+07-26 12:30:15.279 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:716 init: initialized Source codec AAC, idx 1
+07-26 12:30:15.279 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:716 init: initialized Source codec SBC, idx 0
+07-26 12:30:15.279 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:723 init: initialized Sink codec Opus SINK, idx 14
+07-26 12:30:15.279 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:723 init: initialized Sink codec AAC SINK, idx 12
+07-26 12:30:15.279 I/bluetooth-a2dp( 2596): system/stack/a2dp/a2dp_codec_config.cc:723 init: initialized Sink codec SBC SINK, idx 11
+07-26 12:30:15.279 I/bluetooth-a2dp( 2596): system/bta/av/bta_av_aact.cc:846 bta_av_cleanup: peer xx:xx:xx:xx:f2:e3
+07-26 12:30:15.279 I/bluetooth-a2dp( 2596): system/bta/av/bta_av_main.cc:373 SetAvdtpVersion: AVDTP version for xx:xx:xx:xx:f2:e3 set to 0x0
+07-26 12:30:15.279 I/bluetooth-a2dp( 2596): system/bta/av/bta_av_main.cc:373 SetAvdtpVersion: AVDTP version for 00:00:00:00:00:00 set to 0x0
+07-26 12:30:15.279 I/bluetooth-a2dp( 2596): system/bta/av/bta_av_act.cc:344 bta_av_rc_create: Skipping RC creation for the old AVRCP profile
+07-26 12:30:15.279 W/rfcomm_port_utils( 2596): system/stack/rfcomm/port_utils.cc:288 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+07-26 12:30:15.280 I/BluetoothHeadsetServiceJni( 2596): android/app/jni/com_android_bluetooth_hfp.cpp:91 ConnectionStateCallback: 4 for xx:xx:xx:xx:f2:e3
+07-26 12:30:15.280 I/bt_port_api( 2596): system/stack/rfcomm/port_api.cc:214 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=2, is_server=true, mtu=256, uuid=0x1112, dlci=4, signal_state=0xb, p_port=0x7311f62dc0
+07-26 12:30:15.280 I/bluetooth( 2596): system/bta/ag/bta_ag_sco.cc:756 bta_ag_sco_event: device:00:00:00:00:00:00 index:0xffff state:BTA_AG_SCO_LISTEN_ST[1] event:BTA_AG_SCO_SHUTDOWN_E[6]
+07-26 12:30:15.280 W/bluetooth( 2596): system/bta/ag/bta_ag_sco.cc:1244 bta_ag_sco_event: SCO_state_change: [BTA_AG_SCO_LISTEN_ST(0x01)]->[BTA_AG_SCO_SHUTDOWN_ST(0x00)] after event [BTA_AG_SCO_SHUTDOWN_E(0x06)]
+07-26 12:30:15.280 I/bluetooth-a2dp( 2596): system/bta/av/bta_av_main.cc:969 bta_av_sco_chg_cback: status=BTA_SYS_SCO_CLOSE, num_links=0
+07-26 12:30:15.280 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3088 btif_av_handle_event: peer=00:00:00:00:00:00 handle=0x41 event=BTA_AV_CLOSE_EVT(0x3)
+07-26 12:30:15.280 I/BluetoothHeadsetServiceJni( 2596): android/app/jni/com_android_bluetooth_hfp.cpp:91 ConnectionStateCallback: 0 for xx:xx:xx:xx:f2:e3
+07-26 12:30:15.280 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:2250 ProcessEvent: state=Opened peer=xx:xx:xx:xx:f2:e3 event=BTA_AV_CLOSE_EVT(0x3) flags=0x0(None) active_peer=true
+07-26 12:30:15.280 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:2869 btif_report_connection_state: peer=xx:xx:xx:xx:f2:e3 state=3
+07-26 12:30:15.280 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp.cc:98 btif_a2dp_on_stopped: ## ON A2DP STOPPED ## p_av_suspend=0x0
+07-26 12:30:15.280 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp_source.cc:788 btif_a2dp_source_on_stopped: state=STATE_RUNNING
+07-26 12:30:15.280 I/bluetooth-a2dp( 2596): android/app/jni/com_android_bluetooth_a2dp.cpp:67 bta2dp_connection_state_callback: xx:xx:xx:xx:f2:e3: state: BTAV_CONNECTION_STATE_DISCONNECTING(0x3)
+07-26 12:30:15.281 I/HeadsetStateMachine( 2596): Connected: currentDevice=XX:XX:XX:XX:F2:E3, msg=processConnectionEvent: Disconnecting
+07-26 12:30:15.283 W/HeadsetService( 2596): getHfpCallAudioPolicy(), null does not have a state machine
+07-26 12:30:15.283 I/HeadsetService( 2596): setActiveDevice: device=null, uid/pid=1002/2596
+07-26 12:30:15.283 I/BTAudioA2dpAIDL( 2596): system/audio_hal_interface/aidl/a2dp/a2dp_encoding_aidl.cc:572 ack_stream_suspended: result=0
+07-26 12:30:15.283 W/BTAudioA2dpAIDL( 2596): system/audio_hal_interface/aidl/a2dp/a2dp_encoding_aidl.cc:580 ack_stream_suspended: pending=0 ignore result=0
+07-26 12:30:15.283 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp_source.cc:1077 btif_a2dp_source_audio_tx_flush_req: state=STATE_RUNNING
+07-26 12:30:15.283 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp_source.cc:707 btif_a2dp_source_stop_audio_req: state=STATE_RUNNING
+07-26 12:30:15.283 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:2869 btif_report_connection_state: peer=xx:xx:xx:xx:f2:e3 state=0
+07-26 12:30:15.283 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:2242 OnExit: state=Opened peer=xx:xx:xx:xx:f2:e3
+07-26 12:30:15.283 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1650 OnEnter: state=Idle peer=xx:xx:xx:xx:f2:e3
+07-26 12:30:15.283 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp_source.cc:778 btif_a2dp_source_on_idle: state=STATE_RUNNING
+07-26 12:30:15.283 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp_source.cc:707 btif_a2dp_source_stop_audio_req: state=STATE_RUNNING
+07-26 12:30:15.283 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:518 SetActivePeer: peer=00:00:00:00:00:00 active_peer=xx:xx:xx:xx:f2:e3
+07-26 12:30:15.283 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:525 SetActivePeer: peer address is empty, shutdown the Audio source
+07-26 12:30:15.283 I/bluetooth-a2dp( 2596): system/btif/co/bta_av_co.cc:659 SetActivePeer: peer_address=00:00:00:00:00:00
+07-26 12:30:15.283 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp_source.cc:534 btif_a2dp_source_end_session: peer_address=xx:xx:xx:xx:f2:e3 state=STATE_RUNNING
+07-26 12:30:15.283 I/bluetooth-a2dp( 2596): android/app/jni/com_android_bluetooth_a2dp.cpp:67 bta2dp_connection_state_callback: xx:xx:xx:xx:f2:e3: state: BTAV_CONNECTION_STATE_DISCONNECTED(0x0)
+07-26 12:30:15.284 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp_source.cc:686 btif_a2dp_source_cleanup_codec: state=STATE_RUNNING
+07-26 12:30:15.284 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp_source.cc:707 btif_a2dp_source_stop_audio_req: state=STATE_RUNNING
+07-26 12:30:15.284 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp_source.cc:568 btif_a2dp_source_shutdown: state=STATE_RUNNING
+07-26 12:30:15.284 I/A2dpStateMachine( 2596): Disconnecting from XX:XX:XX:XX:F2:E3
+07-26 12:30:15.284 I/A2dpStateMachine( 2596): Enter Disconnecting(XX:XX:XX:XX:F2:E3): STACK_EVENT
+07-26 12:30:15.297 I/A2dpStateMachine( 2596): Disconnected: XX:XX:XX:XX:F2:E3
+07-26 12:30:15.298 I/A2dpStateMachine( 2596): Enter Disconnected(XX:XX:XX:XX:F2:E3): STACK_EVENT
+07-26 12:30:15.310 D/ActivityManager( 1659): sync unfroze 12790 com.android.settings for 10
+07-26 12:30:15.315 I/AdapterProperties( 2596): getBondedDevices: length=15
+07-26 12:30:15.317 W/HeadsetClientService( 2596): getHeadsetClientService(): service is null
+07-26 12:30:15.317 I/HeadsetService( 2596): updateInbandRinging(): Device=null ActiveDevice=null enabled=false connected=true Update all=true
+07-26 12:30:15.322 I/Telecom ( 1659): BluetoothStateReceiver: HFP device 08:E4:DF:94:F2:E3 changed state to 3: BSR.oR@T4g
+07-26 12:30:15.323 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:68:a3
+07-26 12:30:15.324 I/Telecom ( 1659): CallAudioRouteController: Message received: BT_DEVICE_REMOVED=11, arg1=5: BSR.oR->CARC.pM_BT_DEVICE_REMOVED@T4g
+07-26 12:30:15.324 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:8f:c1
+07-26 12:30:15.326 I/AS.BtHelper( 1659): onSetBtScoActiveDevice: XX:XX:XX:XX:F2:E3 -> (null)
+07-26 12:30:15.326 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:96:4d
+07-26 12:30:15.327 I/Telecom ( 1659): BluetoothStateReceiver: Device null is now the preferred BT device for HFP: BSR.oR@T4k
+07-26 12:30:15.327 I/Telecom ( 1659): CallAudioRouteController: bluetooth route removed: AudioRoute[Type=TYPE_BLUETOOTH_SCO, Address=08:E4:DF:94:F2:E3]: BSR.oR->CARC.pM_BT_DEVICE_REMOVED@T4g
+07-26 12:30:15.328 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:74:48
+07-26 12:30:15.329 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:40:25
+07-26 12:30:15.330 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:ec:4d
+07-26 12:30:15.332 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:c9:8e
+07-26 12:30:15.333 D/DeviceHalAidl( 1327): [default] prepareToDisconnectExternalDevice: device AudioPort{id: 2096, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.333 D/ActivityManager( 1659): sync unfroze 20501 com.google.android.projection.gearhead:shared for 3
+07-26 12:30:15.334 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:4d:19
+07-26 12:30:15.334 I/ASvc::Module( 1265): prepareToDisconnectExternalDevice: prepare to disconnect external device from port 300026
+07-26 12:30:15.334 D/DeviceHalAidl( 1327): [r_submix] prepareToDisconnectExternalDevice: device AudioPort{id: 2096, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.334 D/DeviceHalAidl( 1327): [bluetooth] prepareToDisconnectExternalDevice: device AudioPort{id: 2096, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.335 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:1a:18
+07-26 12:30:15.335 D/DeviceHalAidl( 1327): [default] setConnectedState: connected 0 port: AudioPort{id: 2096, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.335 D/Hal2AidlMapper( 1327): [default] setDevicePortConnectedState: state disconnected, device AudioPort{id: 2096, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.335 D/Hal2AidlMapper( 1327): [default] setDevicePortConnectedState: device port for device AudioDevice{type: AudioDeviceDescription{type: OUT_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}} found
+07-26 12:30:15.335 I/ASvc::Module( 1265): disconnectExternalDevice: disconnecting an external device from port 300026
+07-26 12:30:15.335 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:c4:de
+07-26 12:30:15.337 I/Telecom ( 1659): CallAudioRouteController: updateCallAudioState: updating call audio state to [AudioState isMuted: false, route: BLUETOOTH, supportedRouteMask: EARPIECE, SPEAKER, activeBluetoothDevice: [XX:XX:XX:XX:F2:E3], supportedBluetoothDevices: []]: BSR.oR->CARC.pM_BT_DEVICE_REMOVED@T4g
+07-26 12:30:15.337 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:a7:9d
+07-26 12:30:15.337 I/AHal::PortRouteManager( 1265): UpdateRoutes: disconnect port 300026, template port 100005
+07-26 12:30:15.337 I/AHal::PortRouteManager( 1265): UpdateHifiProfiles: port 300026, disconnecting
+07-26 12:30:15.337 I/AHal::DeviceManager( 1265): RemoveDynamicPortMapping: dynamic port ID = 300026
+07-26 12:30:15.337 I/AHal::BT( 1265): DisconnectDevice: bluetooth-sco-headset
+07-26 12:30:15.337 I/ASvc::Module( 1265): getAudioRoutes: routes count = 28
+07-26 12:30:15.338 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:80:09
+07-26 12:30:15.338 D/DeviceHalAidl( 1327): [r_submix] setConnectedState: connected 0 port: AudioPort{id: 2096, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.338 D/Hal2AidlMapper( 1327): [r_submix] setDevicePortConnectedState: state disconnected, device AudioPort{id: 2096, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.338 D/DeviceHalAidl( 1327): [bluetooth] setConnectedState: connected 0 port: AudioPort{id: 2096, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.338 D/Hal2AidlMapper( 1327): [bluetooth] setDevicePortConnectedState: state disconnected, device AudioPort{id: 2096, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.339 D/ActivityManager( 1659): sync unfroze 14100 com.google.android.projection.gearhead:car for 10
+07-26 12:30:15.344 I/HeadsetPhoneState( 2596): stopListenForPhoneState(), stopping listener, enabled_events=0
+07-26 12:30:15.346 I/AS.AudioDeviceInventory( 1659): SCO sink device addr=08:E4:DF:94:F2:E3 made unavailable
+07-26 12:30:15.351 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:cb:f6
+07-26 12:30:15.352 D/DeviceHalAidl( 1327): [default] prepareToDisconnectExternalDevice: device AudioPort{id: 2101, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{input: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: IN_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.353 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:09:92
+07-26 12:30:15.353 I/AS.SpatializerHelper( 1659): onRoutingUpdated: can spatialize media 5.1:true on device:AudioDeviceAttributes: role:output type:bt_a2dp addr:XX:XX:XX:XX:F2:E3 name: profiles:[] descriptors:[]
+07-26 12:30:15.353 I/AS.SpatializerHelper( 1659): setDispatchAvailableState(true) no dispatch: mState:STATE_ENABLED_AVAILABLE
+07-26 12:30:15.353 I/AS.SpatializerHelper( 1659): Enabling Spatial Audio since enabled for media device:AudioDeviceAttributes: role:output type:bt_a2dp addr:XX:XX:XX:XX:F2:E3 name: profiles:[] descriptors:[]
+07-26 12:30:15.353 I/AS.SpatializerHelper( 1659): Setting spatialization level to: 1
+07-26 12:30:15.353 I/ASvc::Module( 1265): prepareToDisconnectExternalDevice: prepare to disconnect external device from port 300027
+07-26 12:30:15.354 D/DeviceHalAidl( 1327): [r_submix] prepareToDisconnectExternalDevice: device AudioPort{id: 2101, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{input: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: IN_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.354 D/DeviceHalAidl( 1327): [bluetooth] prepareToDisconnectExternalDevice: device AudioPort{id: 2101, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{input: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: IN_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.354 D/DeviceHalAidl( 1327): [default] setConnectedState: connected 0 port: AudioPort{id: 2101, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{input: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: IN_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.354 D/Hal2AidlMapper( 1327): [default] setDevicePortConnectedState: state disconnected, device AudioPort{id: 2101, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{input: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: IN_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.354 D/Hal2AidlMapper( 1327): [default] setDevicePortConnectedState: device port for device AudioDevice{type: AudioDeviceDescription{type: IN_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}} found
+07-26 12:30:15.355 I/ASvc::Module( 1265): disconnectExternalDevice: disconnecting an external device from port 300027
+07-26 12:30:15.355 I/AHal::PortRouteManager( 1265): UpdateRoutes: disconnect port 300027, template port 101006
+07-26 12:30:15.355 I/AHal::PortRouteManager( 1265): UpdateHifiProfiles: port 300027, disconnecting
+07-26 12:30:15.355 I/AHal::DeviceManager( 1265): RemoveDynamicPortMapping: dynamic port ID = 300027
+07-26 12:30:15.355 I/AHal::BT( 1265): DisconnectDevice: bluetooth-sco-headset-microphones
+07-26 12:30:15.355 I/ASvc::Module( 1265): getAudioRoutes: routes count = 28
+07-26 12:30:15.356 D/DeviceHalAidl( 1327): [r_submix] setConnectedState: connected 0 port: AudioPort{id: 2101, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{input: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: IN_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.356 D/Hal2AidlMapper( 1327): [r_submix] setDevicePortConnectedState: state disconnected, device AudioPort{id: 2101, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{input: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: IN_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.356 D/DeviceHalAidl( 1327): [bluetooth] setConnectedState: connected 0 port: AudioPort{id: 2101, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{input: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: IN_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.356 D/Hal2AidlMapper( 1327): [bluetooth] setDevicePortConnectedState: state disconnected, device AudioPort{id: 2101, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{input: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: IN_HEADSET, connection: bt-sco}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:15.358 W/HeadsetPhoneState( 2596): startListenForPhoneState, no event to listen
+07-26 12:30:15.359 W/HeadsetClientService( 2596): getHeadsetClientService(): service is null
+07-26 12:30:15.359 I/HeadsetService( 2596): updateInbandRinging(): Device=XX:XX:XX:XX:F2:E3 ActiveDevice=null enabled=false connected=false Update all=false
+07-26 12:30:15.360 D/Spatializer( 1327): checkSensorsState_l: setRequestedLatencyMode for output thread(501) to FREE returned 0
+07-26 12:30:15.361 I/fhem    ( 4147): (REDACTED) appOpsListener %s %s
+07-26 12:30:15.361 I/AS.SpatializerHelper( 1659): setDispatchFeatureEnabledState(true) no dispatch: mState:STATE_ENABLED_AVAILABLE src:onRoutingUpdated
+07-26 12:30:15.362 I/fhem    ( 4147): (REDACTED) Ignoring irrelevant audio permission changes for package %s
+07-26 12:30:15.363 I/Telecom ( 1659): CallEndpointController: onCallAudioStateChanged, audioState: [AudioState isMuted: false, route: BLUETOOTH, supportedRouteMask: EARPIECE, BLUETOOTH, SPEAKER, activeBluetoothDevice: [XX:XX:XX:XX:F2:E3], supportedBluetoothDevices: [XX:XX:XX:XX:F2:E3]] -> [AudioState isMuted: false, route: BLUETOOTH, supportedRouteMask: EARPIECE, SPEAKER, activeBluetoothDevice: [XX:XX:XX:XX:F2:E3], supportedBluetoothDevices: []]: BSR.oR->CARC.pM_BT_DEVICE_REMOVED@T4g
+07-26 12:30:15.371 I/Telecom ( 1659): WiredHeadsetManager: ACTION_HEADSET_PLUG event, plugged in: false, : WHC.oADR@T4o
+07-26 12:30:15.372 I/AS.AudioDeviceInventory( 1659): SCO source device addr=08:E4:DF:94:F2:E3 made unavailable
+07-26 12:30:15.372 I/AS.AudioDeviceBroker( 1659): setBluetoothScoOn: false, mBluetoothScoOn: false, btScoRequesterUId: -1, from: resetBluetoothSco
+07-26 12:30:15.373 E/AudioSystem( 1659): Function: getDevicesForRoleAndStrategy Line: 2573 Failed 
+07-26 12:30:15.373 E/AudioSystem-JNI( 1659): Command failed for android_media_AudioSystem_getDevicesForRoleAndStrategy: -2
+07-26 12:30:15.373 E/AS.AudioService( 1659): Error 1 in getPreferredDeviceForStrategy(0)
+07-26 12:30:15.373 I/Telecom ( 1659): CallAudioRouteController: getPreferredAudioRouteFromStrategy: preferred device is null: BSR.oR->CARC.pM_BT_DEVICE_REMOVED@T4g
+07-26 12:30:15.373 I/Telecom ( 1659): CallAudioRouteController: getBaseRoute: preferred audio route is null: BSR.oR->CARC.pM_BT_DEVICE_REMOVED@T4g
+07-26 12:30:15.373 I/Telecom ( 1659): CallAudioRouteController: Routing to a non-watch device - null: BSR.oR->CARC.pM_BT_DEVICE_REMOVED@T4g
+07-26 12:30:15.373 I/Telecom ( 1659): CallAudioRouteController: getPreferredAudioRouteFromDefault: Audio routing defaulting to available non-BT route.: BSR.oR->CARC.pM_BT_DEVICE_REMOVED@T4g
+07-26 12:30:15.373 I/AS.SpatializerHelper( 1659): head tracker sensor handle initialized to -1
+07-26 12:30:15.373 I/Telecom ( 1659): CallAudioRouteController: getBaseRoute - audio routing to AudioRoute[Type=TYPE_EARPIECE, Address=invalid]: BSR.oR->CARC.pM_BT_DEVICE_REMOVED@T4g
+07-26 12:30:15.373 I/AS.SpatializerHelper( 1659): found screen sensor handle initialized to 16842762
+07-26 12:30:15.373 I/AS.SpatializerHelper( 1659): setScreenSensor:16842762
+07-26 12:30:15.373 I/Telecom ( 1659): CallAudioRouteController: Enter pending route, origAudioRoute[Type=TYPE_BLUETOOTH_SCO, Address=08:E4:DF:94:F2:E3](active=false), destAudioRoute[Type=TYPE_EARPIECE, Address=invalid](active=false): BSR.oR->CARC.pM_BT_DEVICE_REMOVED@T4g
+07-26 12:30:15.373 I/Telecom ( 1659): AudioRoute: onOrigRouteAsPendingRoute: active (false), type (null): BSR.oR->CARC.pM_BT_DEVICE_REMOVED@T4g
+07-26 12:30:15.373 I/Telecom ( 1659): AudioRoute: onDestRouteAsPendingRoute: active (false), type (TYPE_EARPIECE): BSR.oR->CARC.pM_BT_DEVICE_REMOVED@T4g
+07-26 12:30:15.374 I/Telecom ( 1659): CallAudioRouteController: Message received: BT_ACTIVE_DEVICE_GONE=9, arg1=5: BSR.oR->CARC.pM_BT_ACTIVE_DEVICE_GONE@T4k
+07-26 12:30:15.374 I/AS.SpatializerHelper( 1659): setHeadSensor:-1
+07-26 12:30:15.374 I/AS.SpatializerHelper( 1659): setDesiredHeadTrackingMode(HEAD_TRACKING_MODE_RELATIVE_WORLD)
+07-26 12:30:15.375 D/Spatializer( 1327): checkSensorsState_l: setRequestedLatencyMode for output thread(501) to FREE returned 0
+07-26 12:30:15.379 I/Telecom ( 1659): CallAudioRouteController: Message received: EXIT_PENDING_ROUTE=10001, arg1=0: BSR.oR->CARC.pM_BT_DEVICE_REMOVED->CARC.pM_EXIT_PENDING_ROUTE@T4g
+07-26 12:30:15.379 I/Telecom ( 1659): Logging.Events: Non-call EVENT: AUDIO_ROUTE, Entering audio route: AudioRoute[Type=TYPE_EARPIECE, Address=invalid] (active=false): BSR.oR->CARC.pM_BT_DEVICE_REMOVED->CARC.pM_EXIT_PENDING_ROUTE@T4g
+07-26 12:30:15.379 I/Telecom ( 1659): CallAudioRouteController: updateCallAudioState: updating call audio state to [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER, activeBluetoothDevice: [null], supportedBluetoothDevices: []]: BSR.oR->CARC.pM_BT_DEVICE_REMOVED->CARC.pM_EXIT_PENDING_ROUTE@T4g
+07-26 12:30:15.379 I/Telecom ( 1659): CallEndpointController: onCallAudioStateChanged, audioState: [AudioState isMuted: false, route: BLUETOOTH, supportedRouteMask: EARPIECE, SPEAKER, activeBluetoothDevice: [XX:XX:XX:XX:F2:E3], supportedBluetoothDevices: []] -> [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER, activeBluetoothDevice: [null], supportedBluetoothDevices: []]: BSR.oR->CARC.pM_BT_DEVICE_REMOVED->CARC.pM_EXIT_PENDING_ROUTE@T4g
+07-26 12:30:15.380 I/Telecom ( 1659): BluetoothStateReceiver: HFP device 08:E4:DF:94:F2:E3 changed state to 0: BSR.oR@T4s
+07-26 12:30:15.380 I/Telecom ( 1659): CallAudioRouteController: Message received: BT_DEVICE_REMOVED=11, arg1=5: BSR.oR->CARC.pM_BT_DEVICE_REMOVED@T4s
+07-26 12:30:15.381 I/bluetooth( 2596): system/btif/avrcp/avrcp_service.cc:572 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+07-26 12:30:15.383 I/AdapterProperties( 2596): getBondedDevices: length=15
+07-26 12:30:15.384 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:68:a3
+07-26 12:30:15.385 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:8f:c1
+07-26 12:30:15.386 I/AS.AudioService( 1659): BluetoothActiveDeviceChanged for A2DP, device update XX:XX:XX:XX:F2:E3 -> null
+07-26 12:30:15.386 I/bluetooth-a2dp( 2596): android/app/jni/com_android_bluetooth_a2dp.cpp:424 setActiveDeviceNative: 00:00:00:00:00:00
+07-26 12:30:15.386 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3604 btif_av_source_set_active_device: peer=00:00:00:00:00:00
+07-26 12:30:15.387 I/AdapterProperties( 2596): getBondedDevices: length=15
+07-26 12:30:15.387 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:96:4d
+07-26 12:30:15.388 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:74:48
+07-26 12:30:15.388 I/AS.AudioDeviceBroker( 1659): msg: MSG_L_BT_ACTIVE_DEVICE_CHANGE_EXT BtDeviceInfo: device=XX:XX:XX:XX:F2:E3 state=0 prof=2 supprNoisy=false volume=-1 isLeOutput=false eventSource=AudioService audioSystemDevice=128 musicDevice=0
+07-26 12:30:15.388 I/AS.AudioDeviceInventory( 1659): NOISY: adding 0x80
+07-26 12:30:15.389 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:40:25
+07-26 12:30:15.389 I/AS.AudioDeviceInventory( 1659): NOISY: musicDevice changing from NONE to 0x80
+07-26 12:30:15.390 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:ec:4d
+07-26 12:30:15.391 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:c9:8e
+07-26 12:30:15.392 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:4d:19
+07-26 12:30:15.393 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:1a:18
+07-26 12:30:15.394 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:c4:de
+07-26 12:30:15.394 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:a7:9d
+07-26 12:30:15.395 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:80:09
+07-26 12:30:15.400 I/bntz    ( 4147): (REDACTED) #onAudioDevicesRemoved count: %s
+07-26 12:30:15.400 I/AS.AudioDeviceBroker( 1659): broadcast ACTION_AUDIO_BECOMING_NOISY
+07-26 12:30:15.401 I/bntt    ( 4147): (REDACTED) #isBluetoothOrWiredHeadsetConnected Number of connected audio devices: %s
+07-26 12:30:15.401 I/bntt    ( 4147): (REDACTED) Headset device detected of type: %s
+07-26 12:30:15.405 D/ActivityManager( 1659): sync unfroze 27927 com.google.android.youtube for 3
+07-26 12:30:15.408 D/ActivityManager( 1659): sync unfroze 13295 com.whatsapp for 3
+07-26 12:30:15.410 D/ActivityManager( 1659): sync unfroze 22241 org.thunderdog.challegram for 3
+07-26 12:30:15.417 W/YTPL.audiomanager(27927): AudioFocus Noisy
+07-26 12:30:15.419 W/YTPL.audiomanager(27927): shouldResumeOnAudioFocusGain=false
+07-26 12:30:15.419 W/YTPL.audiomanager(27927): shouldResumeOnWindowFocusGain=false
+07-26 12:30:15.419 W/YTPL.audiomanager(27927): lostAudioFocusFromTransientCanDuck=false
+07-26 12:30:15.429 I/ezjb    ( 4147): (REDACTED) #audio# BT-device(%s) is disconnected
+07-26 12:30:15.436 I/ezjb    ( 4147): (REDACTED) #audio# observed BT-devices connection changes, # of available devices(%s)
+07-26 12:30:15.437 I/bmjr    ( 4147): #onBluetoothAudioInputDevicesChanged
+07-26 12:30:15.438 I/bmif    ( 4147): (REDACTED) starting updateConfig, reason: %s
+07-26 12:30:15.440 I/bmtk    ( 4147): #getEarcons
+07-26 12:30:15.440 I/bntt    ( 4147): (REDACTED) #isBluetoothOrWiredHeadsetConnected Number of connected audio devices: %s
+07-26 12:30:15.440 I/bntt    ( 4147): (REDACTED) Headset device detected of type: %s
+07-26 12:30:15.440 I/bmtk    ( 4147): #getEarcons - Adding headset MicOpened earcon.
+07-26 12:30:15.443 I/GH.WifiBluetoothRcvr(20501): Connection action: android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED, device XX:XX:XX:XX:F2:E3
+07-26 12:30:15.446 I/bluetooth( 2596): system/gd/hci/acl_manager/round_robin_scheduler.cc:74 Unregister: unregistering acl_queue handle=11, sent_packets=0
+07-26 12:30:15.446 W/BluetoothMetrics( 2596): system/gd/os/android/metrics.cc:465 LogMetricBluetoothEvent: Failed BluetoothEvent Upload - Address is Empty
+07-26 12:30:15.446 I/bqha    ( 4147): (REDACTED) #isRobinOnlyLocale checkedLocale:%s language:%s list:%s
+07-26 12:30:15.448 I/smedia  ( 5315): SMediaNodeHelper.aliveConnection(): No connected node.
+07-26 12:30:15.460 I/bunm    ( 4147): #getOobeStatus: OptedIn [CONTEXT ratelimit_period="10 SECONDS" skipped=9 ]
+07-26 12:30:15.462 I/bmuh    ( 4147): (REDACTED) FCF System FeatureName to check: %s
+07-26 12:30:15.462 I/bmuh    ( 4147): (REDACTED) FCF: Device model check status : %s
+07-26 12:30:15.463 I/bnbj    ( 4147): #isGeminiDefaultSystemFeatureEnabled: false
+07-26 12:30:15.463 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.463 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.463 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.464 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.464 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.464 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.464 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.464 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.464 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.464 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.464 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.464 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.464 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.465 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.471 I/bmzm    ( 4147): Robin is eligible and opted-in
+07-26 12:30:15.471 I/bmzm    ( 4147): (REDACTED) Headphone Integration status: %s
+07-26 12:30:15.472 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.472 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.472 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.472 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.472 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.472 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:15.474 I/eowa    ( 4147): (REDACTED) isAppDefaultAssistant setting: %s
+07-26 12:30:15.475 I/eowa    ( 4147): (REDACTED) isAppDefaultAssistant defaultComponentName: %s
+07-26 12:30:15.475 I/btsg    ( 4147): (REDACTED) DelegationStatus: %s
+07-26 12:30:15.476 I/bmqi    ( 4147): (REDACTED) Populated bump behaviors: %s
+07-26 12:30:15.476 I/bmqp    ( 4147): (REDACTED) Client type %s set for %s
+07-26 12:30:15.476 I/bmqp    ( 4147): (REDACTED) Client type %s set for %s
+07-26 12:30:15.476 I/bmqp    ( 4147): (REDACTED) Client type %s set for %s
+07-26 12:30:15.478 I/bqha    ( 4147): (REDACTED) #isRobinOnlyLocale checkedLocale:%s language:%s list:%s
+07-26 12:30:15.478 I/bmuh    ( 4147): (REDACTED) FCF System FeatureName to check: %s
+07-26 12:30:15.478 I/bmuh    ( 4147): (REDACTED) FCF: Device model check status : %s
+07-26 12:30:15.480 I/bnae    ( 4147): (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+07-26 12:30:15.480 I/bmha    ( 4147): (REDACTED) #initialConfig Current Locale set to: %s
+07-26 12:30:15.480 I/bmha    ( 4147): (REDACTED) #initialConfig Assistant is currently enabled: %s
+07-26 12:30:15.480 I/bmha    ( 4147): (REDACTED) #initialConfig InputModality is currently: %s
+07-26 12:30:15.480 I/bmha    ( 4147): (REDACTED) #initialConfig Speed Bump entry points: %s
+07-26 12:30:15.480 I/bmha    ( 4147): (REDACTED) #initialConfig Long Press Power Education entrypoints: %s
+07-26 12:30:15.481 I/bmha    ( 4147): (REDACTED) #initialConfig Robin entrypoints: %s
+07-26 12:30:15.481 I/bmha    ( 4147): (REDACTED) #initialConfig Preferred audio route type: %s
+07-26 12:30:15.481 I/bmha    ( 4147): (REDACTED) #initialConfig Earcons to be added: %s
+07-26 12:30:15.481 I/bmha    ( 4147): (REDACTED) #initialConfig Mic occupied behavior: %s
+07-26 12:30:15.481 I/bmha    ( 4147): (REDACTED) #initialConfig Headphone voice queries and spoken notifications status: %s
+07-26 12:30:15.483 I/eowa    ( 4147): (REDACTED) isAppDefaultAssistant setting: %s
+07-26 12:30:15.483 I/eowa    ( 4147): (REDACTED) isAppDefaultAssistant defaultComponentName: %s
+07-26 12:30:15.483 I/btsg    ( 4147): (REDACTED) DelegationStatus: %s
+07-26 12:30:15.490 I/GH.WifiBluetoothRcvr(20501): Wireless projection is available on this phone.
+07-26 12:30:15.497 I/GH.WifiBluetoothRcvr(20501): Processing connection state change for XX:XX:XX:XX:F2:E3. Action android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED has state 3
+07-26 12:30:15.504 D/ActivityManager( 1659): sync unfroze 16722 com.google.android.gms for 6
+07-26 12:30:15.505 D/BackgroundInstallControlService( 1659): Package event received: 0
+07-26 12:30:15.510 D/ActivityManager( 1659): sync unfroze 30079 com.google.android.googlequicksearchbox:googleapp for 6
+07-26 12:30:15.512 D/BackgroundInstallControlService( 1659): Package event received: 0
+07-26 12:30:15.515 D/ActivityManager( 1659): sync unfroze 12836 com.google.android.googlequicksearchbox:search for 6
+07-26 12:30:15.521 D/BackgroundInstallControlService( 1659): Package event received: 0
+07-26 12:30:15.521 D/ActivityManager( 1659): sync unfroze 1694 com.android.vending for 6
+07-26 12:30:15.522 D/BackgroundInstallControlService( 1659): Package event received: 0
+07-26 12:30:15.523 D/ActivityManager( 1659): sync unfroze 17112 com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 for 6
+07-26 12:30:15.524 D/BackgroundInstallControlService( 1659): Package event received: 0
+07-26 12:30:15.528 D/CachedBluetoothDevice( 2433): onProfileStateChanged: profile A2DP, device XX:XX:XX:XX:F2:E3, newProfileState 3
+07-26 12:30:15.528 D/BluetoothAdapter( 2433): getActiveDevices(A2DP)
+07-26 12:30:15.534 I/A       ( 4147): (REDACTED) HeadsetState: onReceive=%s
+07-26 12:30:15.535 I/NearbyDiscovery( 2893): (REDACTED) onProfileConnectionStateChange: action=%s, prevState=%s, state=%s, %s
+07-26 12:30:15.536 D/PowerNotificationWarningsGoogleImpl( 2433): onReceive: android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.536 D/IncompatibleChargerNotification( 2433): dispatchIntent: android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.540 W/APM::HwModule( 1327): getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_WIRED_HEADSET, 00000004) address 
+07-26 12:30:15.541 W/APM::HwModule( 1327): getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_WIRED_HEADPHONE, 00000008) address 
+07-26 12:30:15.542 I/geox    (12836): (REDACTED) Created gRPC endpoint for service %s
+07-26 12:30:15.543 I/headsetCtxPrv( 4147): wired -- returning false
+07-26 12:30:15.543 I/GH.WifiBluetoothRcvr(20501): Connection action: android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED, device XX:XX:XX:XX:F2:E3
+07-26 12:30:15.544 I/GH.WifiBluetoothRcvr(20501): Wireless projection is available on this phone.
+07-26 12:30:15.546 I/GH.WifiBluetoothRcvr(20501): Processing connection state change for XX:XX:XX:XX:F2:E3. Action android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED has state 3
+07-26 12:30:15.554 W/ProcessStats( 1659): Tracking association SourceState{7eaf3f9 com.google.android.gms/10175 BFgs #157940} whose proc state 4 is better than process ProcessState{a21fc68 com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/10175 pkg=com.google.android.gms} proc state 14 (1 skipped)
+07-26 12:30:15.555 I/headsetCtxPrv( 4147): (REDACTED) A2DP profile connection state changed, State:[%s] Device:[%s]
+07-26 12:30:15.558 W/pixelstats-vendor( 3392): Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: android.frameworks.stats.IStats/default
+07-26 12:30:15.558 D/PowerNotificationWarningsGoogleImpl( 2433): onReceive: android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.558 D/IncompatibleChargerNotification( 2433): dispatchIntent: android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.560 I/GH.WifiBluetoothRcvr(20501): Connection action: android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED, device XX:XX:XX:XX:F2:E3
+07-26 12:30:15.560 I/GH.WifiBluetoothRcvr(20501): Wireless projection is available on this phone.
+07-26 12:30:15.561 I/NearbyDiscovery( 2893): (REDACTED) onProfileConnectionStateChange: action=%s, prevState=%s, state=%s, %s
+07-26 12:30:15.561 I/GH.WifiBluetoothRcvr(20501): Processing connection state change for XX:XX:XX:XX:F2:E3. Action android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED has state 0
+07-26 12:30:15.562 I/headsetCtxPrv( 4147): (REDACTED) is headset profile connected? %s check_enabled? %b
+07-26 12:30:15.566 I/headsetCtxPrv( 4147): (REDACTED) is a2dp profile connected? %s
+07-26 12:30:15.569 I/headsetCtxPrv( 4147): (REDACTED) A2DP device disconnected, profiles connected: headset:%b a2dp:%b
+07-26 12:30:15.570 I/headsetCtxPrv( 4147): A2DP disconnected and headset profile disconnected
+07-26 12:30:15.577 I/GH.WifiBluetoothRcvr(20501): Connection action: android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED, device XX:XX:XX:XX:F2:E3
+07-26 12:30:15.581 I/GH.WifiBluetoothRcvr(20501): Wireless projection is available on this phone.
+07-26 12:30:15.581 I/Nearby  ( 2893): (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+07-26 12:30:15.584 I/GH.WifiBluetoothRcvr(20501): Processing connection state change for XX:XX:XX:XX:F2:E3. Action android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED has state 0
+07-26 12:30:15.586 I/ryj     ( 4147): (REDACTED) refreshAndGetAlias(Name: %s, Alias: %s
+07-26 12:30:15.592 I/Nearby  ( 2893): (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+07-26 12:30:15.592 I/bbwi    ( 4147): onReceive
+07-26 12:30:15.597 I/ryj     ( 4147): (REDACTED) #device name: %s alias: %s class: %d major: %d
+07-26 12:30:15.598 I/A       ( 4147): (REDACTED) HeadsetState: Got state %s
+07-26 12:30:15.599 I/NearbyDiscovery( 2893): (REDACTED) DiscoveryService onStartCommand action: %s
+07-26 12:30:15.600 I/NearbyDiscovery( 2893): (REDACTED) onProfileConnectionStateChange: action=%s, prevState=%s, state=%s, %s
+07-26 12:30:15.602 D/PowerNotificationWarningsGoogleImpl( 2433): onReceive: android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.602 D/IncompatibleChargerNotification( 2433): dispatchIntent: android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.605 I/AmbBrdcstRcvrServClient( 4147): (REDACTED) onTrigger(): %s
+07-26 12:30:15.606 I/bbtz    ( 4147): (REDACTED) isGrpcDeviceIntent: %s
+07-26 12:30:15.606 I/NearbyDiscovery( 2893): (REDACTED) onProfileConnectionStateChange: action=%s, prevState=%s, state=%s, %s
+07-26 12:30:15.606 I/bbtz    ( 4147): (REDACTED) isAgsaUpgradedIntent: %s
+07-26 12:30:15.606 W/bdic    ( 4147): (REDACTED) Wrong intent action: %s
+07-26 12:30:15.608 I/bmxc    (12836): (REDACTED) #FCF: Managed profile check status : %s
+07-26 12:30:15.608 I/bnbo    (12836): Robin eligibility: Device is eligible.
+07-26 12:30:15.611 I/bviq    (12836): (REDACTED) #TRIGGER_TYPE type is: %s
+07-26 12:30:15.611 I/bviq    (12836): (REDACTED) #TRIGGER_TYPE islockscreen is: %s
+07-26 12:30:15.612 I/BrdcstRcvrMsgr( 4147): (REDACTED) sendMessage(): received broadcast id:%d with action:%s
+07-26 12:30:15.614 I/A       ( 4147): (REDACTED) HeadsetState: onReceive=%s
+07-26 12:30:15.615 W/APM::HwModule( 1327): getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_WIRED_HEADSET, 00000004) address 
+07-26 12:30:15.615 I/bmuh    (12836): (REDACTED) FCF System FeatureName to check: %s
+07-26 12:30:15.616 I/bmuh    (12836): (REDACTED) FCF: Device model check status : %s
+07-26 12:30:15.616 W/APM::HwModule( 1327): getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_WIRED_HEADPHONE, 00000008) address 
+07-26 12:30:15.616 I/bnbj    (12836): #isGeminiDefaultSystemFeatureEnabled: false
+07-26 12:30:15.616 I/headsetCtxPrv( 4147): wired -- returning false
+07-26 12:30:15.618 I/NearbyDiscovery( 2893): (REDACTED) FastPairController: DeviceStateManager: removeProfile: %s, action=%s
+07-26 12:30:15.619 I/NearbyDiscovery( 2893): (REDACTED) FastPairController: destroyEventStreamIfNeeded: %s, type=%s
+07-26 12:30:15.619 I/bmuh    (12836): (REDACTED) FCF System FeatureName to check: %s
+07-26 12:30:15.619 I/bmuh    (12836): (REDACTED) FCF: Device model check status : %s
+07-26 12:30:15.619 I/bnbj    (12836): #isGeminiDefaultSystemFeatureEnabled: false
+07-26 12:30:15.620 I/bqfh    (12836): Manufacturer not matched [CONTEXT ratelimit_period="10 SECONDS" skipped=1 ]
+07-26 12:30:15.620 I/bqfh    (12836): Device not matched [CONTEXT ratelimit_period="10 SECONDS" skipped=1 ]
+07-26 12:30:15.622 I/bnbc    (12836): (REDACTED) %s was not found: %s
+07-26 12:30:15.623 D/PowerNotificationWarningsGoogleImpl( 2433): onReceive: android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.623 D/IncompatibleChargerNotification( 2433): dispatchIntent: android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.623 D/PowerNotificationWarningsGoogleImpl( 2433): onReceive: android.bluetooth.device.action.BATTERY_LEVEL_CHANGED
+07-26 12:30:15.623 D/IncompatibleChargerNotification( 2433): dispatchIntent: android.bluetooth.device.action.BATTERY_LEVEL_CHANGED
+07-26 12:30:15.623 D/PowerNotificationWarningsGoogleImpl( 2433): onReceive: android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.623 D/IncompatibleChargerNotification( 2433): dispatchIntent: android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.624 D/PowerNotificationWarningsGoogleImpl( 2433): onReceive: android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.624 D/IncompatibleChargerNotification( 2433): dispatchIntent: android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.626 I/headsetCtxPrv( 4147): (REDACTED) A2DP profile connection state changed, State:[%s] Device:[%s]
+07-26 12:30:15.627 I/headsetCtxPrv( 4147): (REDACTED) is headset profile connected? %s check_enabled? %b
+07-26 12:30:15.629 I/headsetCtxPrv( 4147): (REDACTED) is a2dp profile connected? %s
+07-26 12:30:15.629 I/headsetCtxPrv( 4147): (REDACTED) A2DP device disconnected, profiles connected: headset:%b a2dp:%b
+07-26 12:30:15.629 I/headsetCtxPrv( 4147): A2DP disconnected and headset profile disconnected
+07-26 12:30:15.634 I/bshq    (12836): (REDACTED) Provider package not found: %s
+07-26 12:30:15.634 I/brwu    (12836): ClockLookupExecutor is not enabled.
+07-26 12:30:15.635 I/bshq    (12836): (REDACTED) Provider package %s enabled: %s
+07-26 12:30:15.635 I/bshq    (12836): (REDACTED) Provider package %s enabled: %s
+07-26 12:30:15.635 I/eowa    (12836): (REDACTED) isAppDefaultAssistant setting: %s
+07-26 12:30:15.635 I/eowa    (12836): (REDACTED) isAppDefaultAssistant defaultComponentName: %s
+07-26 12:30:15.637 I/bbwi    ( 4147): onReceive
+07-26 12:30:15.639 I/eowa    (12836): (REDACTED) isAppDefaultAssistant setting: %s
+07-26 12:30:15.639 I/eowa    (12836): (REDACTED) isAppDefaultAssistant defaultComponentName: %s
+07-26 12:30:15.639 I/A       (12836): Calling beginBinderSession().
+07-26 12:30:15.639 I/bshq    (12836): (REDACTED) Provider package %s enabled: %s
+07-26 12:30:15.640 I/bshq    (12836): (REDACTED) Provider package %s enabled: %s
+07-26 12:30:15.640 I/bshq    (12836): (REDACTED) Provider package %s enabled: %s
+07-26 12:30:15.640 I/bshq    (12836): (REDACTED) Provider package %s enabled: %s
+07-26 12:30:15.641 I/eowa    (12836): (REDACTED) isAppDefaultAssistant setting: %s
+07-26 12:30:15.642 I/eowa    (12836): (REDACTED) isAppDefaultAssistant defaultComponentName: %s
+07-26 12:30:15.642 I/bshq    (12836): (REDACTED) Provider package %s enabled: %s
+07-26 12:30:15.643 I/eowa    (12836): (REDACTED) isAppDefaultAssistant setting: %s
+07-26 12:30:15.643 I/eowa    (12836): (REDACTED) isAppDefaultAssistant defaultComponentName: %s
+07-26 12:30:15.643 I/bdic    ( 4147): (REDACTED) bluetoothConnectionStateChanged. Action: %s
+07-26 12:30:15.644 D/ActivityManager( 1659): sync unfroze 20669 com.spotify.music for 3
+07-26 12:30:15.644 I/bshq    (12836): (REDACTED) Provider package %s enabled: %s
+07-26 12:30:15.645 I/brtv    (12836): CreateCalendarEventExecutor is not enabled.
+07-26 12:30:15.646 I/brvb    (12836): DeviceStateLookUpExecutor getRequiredCapabilities
+07-26 12:30:15.646 I/bruo    (12836): DeleteNoteExecutor is not enabled.
+07-26 12:30:15.646 I/brwh    (12836): UpdateNoteExecutor is not enabled.
+07-26 12:30:15.647 I/brwh    (12836): UpdateNoteExecutor is not enabled.
+07-26 12:30:15.648 I/ryj     ( 4147): (REDACTED) refreshAndGetAlias(Name: %s, Alias: %s
+07-26 12:30:15.648 I/A       ( 4147): (REDACTED) HeadsetState: onReceive=%s
+07-26 12:30:15.649 W/APM::HwModule( 1327): getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_WIRED_HEADSET, 00000004) address 
+07-26 12:30:15.650 I/ryj     ( 4147): (REDACTED) #device name: %s alias: %s class: %d major: %d
+07-26 12:30:15.651 I/A       (12836): beginBinderSession(): calling binder
+07-26 12:30:15.652 D/ActivityManager( 1659): sync unfroze 20541 com.google.android.apps.wearables.maestro.companion for 3
+07-26 12:30:15.652 W/APM::HwModule( 1327): getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_WIRED_HEADPHONE, 00000008) address 
+07-26 12:30:15.652 I/BrdcstRcvrMsgr( 4147): SvcConn: messenger connected
+07-26 12:30:15.653 I/headsetCtxPrv( 4147): wired -- returning false
+07-26 12:30:15.653 I/eowa    (12836): (REDACTED) isAppDefaultAssistant setting: %s
+07-26 12:30:15.654 I/eowa    (12836): (REDACTED) isAppDefaultAssistant defaultComponentName: %s
+07-26 12:30:15.659 I/headsetCtxPrv( 4147): (REDACTED) Bluetooth adapter connection state to a profile changed. State:[%s] Device:[%s]
+07-26 12:30:15.660 I/headsetCtxPrv( 4147): Adapter disconnected from all profiles.
+07-26 12:30:15.660 I/A       ( 4147): (REDACTED) HeadsetState: onReceive=%s
+07-26 12:30:15.661 I/bunm    (12836): #getOobeStatus: OptedIn [CONTEXT ratelimit_period="10 SECONDS" skipped=5 ]
+07-26 12:30:15.661 I/BrdcstRcvrBProvider(12836): (REDACTED) handleMessage(): id:%d action:%s
+07-26 12:30:15.661 W/APM::HwModule( 1327): getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_WIRED_HEADSET, 00000004) address 
+07-26 12:30:15.661 I/AmbBrdcstRcvrBProvider(12836): (REDACTED) receive(): %s
+07-26 12:30:15.662 I/A       (12836): (REDACTED) handleIntent(): action:%s
+07-26 12:30:15.663 I/bmxc    (12836): (REDACTED) #FCF: Managed profile check status : %s
+07-26 12:30:15.664 W/APM::HwModule( 1327): getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_WIRED_HEADPHONE, 00000008) address 
+07-26 12:30:15.664 I/bndq    (12836): (REDACTED) isCacheFresh: %s
+07-26 12:30:15.665 I/headsetCtxPrv( 4147): wired -- returning false
+07-26 12:30:15.671 I/ryj     ( 4147): (REDACTED) refreshAndGetAlias(Name: %s, Alias: %s
+07-26 12:30:15.671 I/headsetCtxPrv( 4147): (REDACTED) Bluetooth adapter connection state to a profile changed. State:[%s] Device:[%s]
+07-26 12:30:15.671 I/HeadsetContextPlugin(12836): (REDACTED) headset state. %s
+07-26 12:30:15.671 I/headsetCtxPrv( 4147): Adapter disconnected from all profiles.
+07-26 12:30:15.674 I/ryj     ( 4147): (REDACTED) #device name: %s alias: %s class: %d major: %d
+07-26 12:30:15.679 I/anrv    (12836): (REDACTED) Enqueue background periodic task and save headphone connection log to geller: type: %s, state: %s, time: %d
+07-26 12:30:15.680 I/A       (12836): (REDACTED) Applying result: %s
+07-26 12:30:15.682 I/ryj     ( 4147): (REDACTED) refreshAndGetAlias(Name: %s, Alias: %s
+07-26 12:30:15.684 I/ryj     ( 4147): (REDACTED) #device name: %s alias: %s class: %d major: %d
+07-26 12:30:15.688 I/HeadsetContextPlugin(12836): (REDACTED) updating context. Connected %s, type %s, name %s
+07-26 12:30:15.689 I/bmuh    (12836): (REDACTED) FCF System FeatureName to check: %s
+07-26 12:30:15.689 I/bmuh    (12836): (REDACTED) FCF: Device model check status : %s
+07-26 12:30:15.689 I/bnbj    (12836): #isGeminiDefaultSystemFeatureEnabled: false
+07-26 12:30:15.689 I/A       (12836): (REDACTED) Applying result: %s
+07-26 12:30:15.690 I/brcx    (12836): Robin eligibility : Robin is eligible
+07-26 12:30:15.695 I/SuggAggr(12836): onContextChanged
+07-26 12:30:15.695 I/MediaRecsCtxProducer(12836): #shouldHandleContext(): Media AGSA-C path is disabled. Not handling...
+07-26 12:30:15.702 I/bnbn    ( 4147): (REDACTED) Robin eligibility #evaluate: isEnabled = %s failure reasons: %s
+07-26 12:30:15.705 I/bmuh    ( 4147): (REDACTED) FCF System FeatureName to check: %s
+07-26 12:30:15.705 I/bmuh    ( 4147): (REDACTED) FCF: Device model check status : %s
+07-26 12:30:15.706 I/bnbj    ( 4147): #isGeminiDefaultSystemFeatureEnabled: false
+07-26 12:30:15.706 I/bmha    ( 4147): Robin backend selected for headphone invocations.
+07-26 12:30:15.707 I/bmto    ( 4147): (REDACTED) #FCF: Preferred assistant locale set %s 
+07-26 12:30:15.707 I/bmto    ( 4147): (REDACTED) #FCF: Preferred assistant locale set %s 
+07-26 12:30:15.708 I/bnap    ( 4147): (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+07-26 12:30:15.708 I/bnak    ( 4147): (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+07-26 12:30:15.708 I/bmha    ( 4147): (REDACTED) Needs to download files: %s
+07-26 12:30:15.710 I/A       (12836): (REDACTED) set() chips:%s filtered:%s
+07-26 12:30:15.711 I/etqr    ( 4147): (REDACTED) New message(%s, @%s) received at connection(%s).
+07-26 12:30:15.711 I/etqr    ( 4147): (REDACTED) Message(%s, @%s) has been successfully processed at connection(%s).
+07-26 12:30:15.711 I/etkl    ( 4147): (REDACTED) Connection state changed: %s.
+07-26 12:30:15.711 I/dxbq    (12836): (REDACTED) Writing data of size=%d bytes with N=%d keys to Geller corpus %s at ts=%d
+07-26 12:30:15.713 I/bmif    ( 4147): (REDACTED) Updated config based on request %s, currentClient %s
+07-26 12:30:15.716 I/etkl    ( 4147): (REDACTED) Invocations routing has changed
+07-26 12:30:15.716 I/etkl    ( 4147): %s
+07-26 12:30:15.739 I/HeadsetContextPlugin(12836): Successfully saved the connection log
+07-26 12:30:15.741 W/CPDataMediator(12836): Missing weather card from content store
+07-26 12:30:15.741 W/CPDataMediator(12836): Missing weather card from content store
+07-26 12:30:15.747 I/BrdcstRcvrBProvider(12836): (REDACTED) handleMessage(): DONE id:%d
+07-26 12:30:15.749 I/BrdcstRcvrMsgr( 4147): (REDACTED) handleMessage(): id:%d, DEC to %d
+07-26 12:30:15.750 I/BrdcstRcvrMsgr( 4147): disconnect()
+07-26 12:30:15.750 I/A       ( 4147): (REDACTED) HeadsetState: Got state %s
+07-26 12:30:15.751 I/AmbBrdcstRcvrServClient( 4147): (REDACTED) onTrigger(): %s
+07-26 12:30:15.756 I/BrdcstRcvrMsgr( 4147): (REDACTED) sendMessage(): received broadcast id:%d with action:%s
+07-26 12:30:15.764 I/A       (12836): Calling beginBinderSession().
+07-26 12:30:15.764 I/A       (12836): beginBinderSession(): calling binder
+07-26 12:30:15.765 I/BrdcstRcvrMsgr( 4147): SvcConn: messenger connected
+07-26 12:30:15.767 I/BrdcstRcvrBProvider(12836): (REDACTED) handleMessage(): id:%d action:%s
+07-26 12:30:15.768 I/AmbBrdcstRcvrBProvider(12836): (REDACTED) receive(): %s
+07-26 12:30:15.769 I/A       (12836): (REDACTED) handleIntent(): action:%s
+07-26 12:30:15.771 I/HeadsetContextPlugin(12836): (REDACTED) headset state. %s
+07-26 12:30:15.773 I/anrv    (12836): (REDACTED) Enqueue background periodic task and save headphone connection log to geller: type: %s, state: %s, time: %d
+07-26 12:30:15.774 I/A       (12836): (REDACTED) Applying result: %s
+07-26 12:30:15.774 I/HeadsetContextPlugin(12836): (REDACTED) updating context. Connected %s, type %s, name %s
+07-26 12:30:15.775 I/A       (12836): (REDACTED) Applying result: %s
+07-26 12:30:15.776 I/SuggAggr(12836): onContextChanged
+07-26 12:30:15.776 I/MediaRecsCtxProducer(12836): #shouldHandleContext(): Media AGSA-C path is disabled. Not handling...
+07-26 12:30:15.778 I/A       (12836): (REDACTED) set() chips:%s filtered:%s
+07-26 12:30:15.797 W/CPDataMediator(12836): Missing weather card from content store
+07-26 12:30:15.806 W/CPDataMediator(12836): Missing weather card from content store
+07-26 12:30:15.807 I/Connection4Heart( 5315): ConnectionReceiver.onReceive-android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.810 I/HeadsetContextPlugin(12836): Successfully saved the connection log
+07-26 12:30:15.812 I/smedia  ( 5315): SMediaAudioHelper.onReceive(android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED)
+07-26 12:30:15.812 I/smedia  ( 5315): SMediaAudioHelper.onReceive(other): android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.812 I/Connection4Heart( 5315): ConnectionReceiver.onReceive-android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.813 I/smedia  ( 5315): SMediaAudioHelper.onReceive(android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED)
+07-26 12:30:15.813 I/smedia  ( 5315): SMediaAudioHelper.onReceive(other): android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.813 I/smedia  ( 5315): SMediaAudioHelper.onReceive(android.bluetooth.a2dp.profile.action.ACTIVE_DEVICE_CHANGED)
+07-26 12:30:15.814 I/Connection4Heart( 5315): BluetoothEventHandler.onBluetoothEvent-action: android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.815 W/Connection4Heart( 5315): WatchData.isManualConnectWatch() : do not have device - ##:##:##:##:F2:E3!!
+07-26 12:30:15.816 I/AdapterProperties( 2596): getBondedDevices: length=15
+07-26 12:30:15.816 I/BrdcstRcvrBProvider(12836): (REDACTED) handleMessage(): DONE id:%d
+07-26 12:30:15.818 I/Connection4Heart( 5315): ConnectionHandler.getDeviceFromIntent() : non contain watch - ##:##:##:##:F2:E3
+07-26 12:30:15.818 I/Connection4Heart( 5315): BluetoothEventHandler.onBluetoothEvent-action: android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED
+07-26 12:30:15.819 W/Connection4Heart( 5315): WatchData.isManualConnectWatch() : do not have device - ##:##:##:##:F2:E3!!
+07-26 12:30:15.819 I/BrdcstRcvrMsgr( 4147): (REDACTED) handleMessage(): id:%d, DEC to %d
+07-26 12:30:15.819 I/Connection4Heart( 5315): ConnectionHandler.getDeviceFromIntent() : non contain watch - ##:##:##:##:F2:E3
+07-26 12:30:15.821 I/BrdcstRcvrMsgr( 4147): disconnect()
+07-26 12:30:15.821 I/A       ( 4147): (REDACTED) HeadsetState: Got state %s
+07-26 12:30:15.822 I/AmbBrdcstRcvrServClient( 4147): (REDACTED) onTrigger(): %s
+07-26 12:30:15.824 I/AiAiEcho( 4126): (REDACTED) Predicting[%d]: %s
+07-26 12:30:15.826 I/AiAiEcho( 4126): (REDACTED) EchoTargets: %s
+07-26 12:30:15.826 I/AiAiEcho( 4126): Filtered by AiAi flag check: %s
+07-26 12:30:15.828 I/AiAiEcho( 4126): #remoteViewsTwiddler: feature disabled.
+07-26 12:30:15.828 I/AiAiEcho( 4126): (REDACTED) Predicting[%d]: %s
+07-26 12:30:15.828 I/BrdcstRcvrMsgr( 4147): (REDACTED) sendMessage(): received broadcast id:%d with action:%s
+07-26 12:30:15.830 I/AiAiEcho( 4126): (REDACTED) EchoTargets: %s
+07-26 12:30:15.830 I/AiAiEcho( 4126): Filtered by AiAi flag check: %s
+07-26 12:30:15.831 I/AiAiEcho( 4126): (REDACTED) #weatherTwiddler: Weather removes SubtitleSupplementalItem in surface: %s
+07-26 12:30:15.831 I/AiAiEcho( 4126): #remoteViewsTwiddler: feature disabled.
+07-26 12:30:15.831 I/AiAiEcho( 4126): (REDACTED) Predicting[%d]: %s
+07-26 12:30:15.835 I/AiAiEcho( 4126): (REDACTED) EchoTargets: %s
+07-26 12:30:15.835 I/AiAiEcho( 4126): Filtered by AiAi flag check: %s
+07-26 12:30:15.837 I/AiAiEcho( 4126): (REDACTED) #weatherTwiddler: Weather removes SubtitleSupplementalItem in surface: %s
+07-26 12:30:15.837 I/A       (12836): Calling beginBinderSession().
+07-26 12:30:15.837 I/AiAiEcho( 4126): #remoteViewsTwiddler: feature disabled.
+07-26 12:30:15.838 I/A       (12836): beginBinderSession(): calling binder
+07-26 12:30:15.839 I/BrdcstRcvrMsgr( 4147): SvcConn: messenger connected
+07-26 12:30:15.839 I/AiAiEcho( 4126): (REDACTED) #postPredictionTargets: Sending updates to UISurface %s with targets# %s (types=[%s])
+07-26 12:30:15.839 D/SsMediaDataProvider( 2433): Forwarding Smartspace updates []
+07-26 12:30:15.841 I/BrdcstRcvrBProvider(12836): (REDACTED) handleMessage(): id:%d action:%s
+07-26 12:30:15.842 I/AmbBrdcstRcvrBProvider(12836): (REDACTED) receive(): %s
+07-26 12:30:15.842 W/HWUI    ( 4126): Image decoding logging dropped!
+07-26 12:30:15.842 I/A       (12836): (REDACTED) handleIntent(): action:%s
+07-26 12:30:15.844 I/HeadsetContextPlugin(12836): (REDACTED) headset state. %s
+07-26 12:30:15.844 I/AiAiEcho( 4126): (REDACTED) #postPredictionTargets: Sending updates to UISurface %s with targets# %s (types=[%s])
+07-26 12:30:15.846 I/anrv    (12836): (REDACTED) Enqueue background periodic task and save headphone connection log to geller: type: %s, state: %s, time: %d
+07-26 12:30:15.847 I/A       (12836): (REDACTED) Applying result: %s
+07-26 12:30:15.848 I/WeatherSmartspaceView( 2433): setFormattedContentDescription: text=80°F, iconDescription=Rain showers, contentDescription=Rain showers, 80°F
+07-26 12:30:15.848 I/HeadsetContextPlugin(12836): (REDACTED) updating context. Connected %s, type %s, name %s
+07-26 12:30:15.848 I/WeatherData( 2433): Weather data parsed SHOWERS_RAIN ("Rain showers") 80°F from Bundle[{description=Rain showers, feedback_intent=null, explanation_intent=Supplier{VAL_PARCELABLE@152+1736}, is_gaia_linked_data=true, use_celsius=false, state=13, temperature=80}]
+07-26 12:30:15.848 W/PageIndicator( 2433): Total number of pages invalid: 0. Assuming 1 page.
+07-26 12:30:15.848 W/HWUI    ( 4126): Image decoding logging dropped!
+07-26 12:30:15.849 I/A       (12836): (REDACTED) Applying result: %s
+07-26 12:30:15.850 I/AiAiEcho( 4126): (REDACTED) #postPredictionTargets: Sending updates to UISurface %s with targets# %s (types=[%s])
+07-26 12:30:15.853 D/SsBaseTemplateCard( 2808): No text view can be set up
+07-26 12:30:15.850 I/SuggAggr(12836): onContextChanged
+07-26 12:30:15.853 I/SsBaseTemplateCard( 2808): setFormattedContentDescription: text=80°F, iconDescription=Rain showers, contentDescription=Rain showers, 80°F
+07-26 12:30:15.853 D/SsBaseTemplateCard( 2808): Passed-in item info is null
+07-26 12:30:15.853 I/MediaRecsCtxProducer(12836): #shouldHandleContext(): Media AGSA-C path is disabled. Not handling...
+07-26 12:30:15.853 D/SsBaseTemplateCard( 2808): Passed-in item info is null
+07-26 12:30:15.853 I/SsBaseTemplateCard( 2808): Secondary card pane is null
+07-26 12:30:15.855 I/smedia  ( 5315): SMediaNodeHelper.aliveConnection(): No connected node.
+07-26 12:30:15.856 I/A       (12836): (REDACTED) set() chips:%s filtered:%s
+07-26 12:30:15.868 W/CPDataMediator(12836): Missing weather card from content store
+07-26 12:30:15.869 I/HeadsetContextPlugin(12836): Successfully saved the connection log
+07-26 12:30:15.874 W/CPDataMediator(12836): Missing weather card from content store
+07-26 12:30:15.877 I/BrdcstRcvrBProvider(12836): (REDACTED) handleMessage(): DONE id:%d
+07-26 12:30:15.878 I/BrdcstRcvrMsgr( 4147): (REDACTED) handleMessage(): id:%d, DEC to %d
+07-26 12:30:15.879 I/BrdcstRcvrMsgr( 4147): disconnect()
+07-26 12:30:15.879 I/A       ( 4147): (REDACTED) HeadsetState: Got state %s
+07-26 12:30:15.880 I/AmbBrdcstRcvrServClient( 4147): (REDACTED) onTrigger(): %s
+07-26 12:30:15.886 I/BrdcstRcvrMsgr( 4147): (REDACTED) sendMessage(): received broadcast id:%d with action:%s
+07-26 12:30:15.894 I/A       (12836): Calling beginBinderSession().
+07-26 12:30:15.894 I/A       (12836): beginBinderSession(): calling binder
+07-26 12:30:15.895 I/BrdcstRcvrMsgr( 4147): SvcConn: messenger connected
+07-26 12:30:15.897 I/BrdcstRcvrBProvider(12836): (REDACTED) handleMessage(): id:%d action:%s
+07-26 12:30:15.898 I/AmbBrdcstRcvrBProvider(12836): (REDACTED) receive(): %s
+07-26 12:30:15.898 I/A       (12836): (REDACTED) handleIntent(): action:%s
+07-26 12:30:15.900 I/HeadsetContextPlugin(12836): (REDACTED) headset state. %s
+07-26 12:30:15.902 I/anrv    (12836): (REDACTED) Enqueue background periodic task and save headphone connection log to geller: type: %s, state: %s, time: %d
+07-26 12:30:15.904 I/A       (12836): (REDACTED) Applying result: %s
+07-26 12:30:15.904 I/HeadsetContextPlugin(12836): (REDACTED) updating context. Connected %s, type %s, name %s
+07-26 12:30:15.904 I/A       (12836): (REDACTED) Applying result: %s
+07-26 12:30:15.905 I/SuggAggr(12836): onContextChanged
+07-26 12:30:15.906 I/MediaRecsCtxProducer(12836): #shouldHandleContext(): Media AGSA-C path is disabled. Not handling...
+07-26 12:30:15.908 I/A       (12836): (REDACTED) set() chips:%s filtered:%s
+07-26 12:30:15.928 W/CPDataMediator(12836): Missing weather card from content store
+07-26 12:30:15.934 W/CPDataMediator(12836): Missing weather card from content store
+07-26 12:30:15.936 I/HeadsetContextPlugin(12836): Successfully saved the connection log
+07-26 12:30:15.940 I/BrdcstRcvrBProvider(12836): (REDACTED) handleMessage(): DONE id:%d
+07-26 12:30:15.942 I/BrdcstRcvrMsgr( 4147): (REDACTED) handleMessage(): id:%d, DEC to %d
+07-26 12:30:15.942 I/BrdcstRcvrMsgr( 4147): disconnect()
+07-26 12:30:15.952 I/AiAiStatsd( 4126): (REDACTED) Successfully logged feature enablement for %s.
+07-26 12:30:16.284 I/bthal.activity( 1267): bt_power: AclDataStat: 12:30:15:250 - 12:30:16:283, conn_handle: 11, duration: 1032, acl_data_count: 8, acl_tx_data_count: 4, acl_rx_data_count: 4, total_acl_data_count: 1779
+07-26 12:30:16.286 E/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:536 SetActivePeer: Timed out waiting for A2DP source shutdown to complete.
+07-26 12:30:16.286 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp_source.cc:1061 btif_a2dp_source_audio_tx_flush_event: state=STATE_SHUTTING_DOWN
+07-26 12:30:16.287 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp_source.cc:889 btif_a2dp_source_audio_tx_stop_event: streaming false state=STATE_SHUTTING_DOWN
+07-26 12:30:16.287 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp_source.cc:889 btif_a2dp_source_audio_tx_stop_event: streaming false state=STATE_SHUTTING_DOWN
+07-26 12:30:16.287 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp_source.cc:542 btif_a2dp_source_end_session_delayed: peer_address=xx:xx:xx:xx:f2:e3 state=STATE_SHUTTING_DOWN
+07-26 12:30:16.287 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3711 btif_av_stream_stop: peer=xx:xx:xx:xx:f2:e3
+07-26 12:30:16.300 I/BTAudioProviderStub( 1265): endSession - SessionType=A2DP_HARDWARE_OFFLOAD_ENCODING_DATAPATH
+07-26 12:30:16.300 I/BTAudioSessionAidl( 1265): OnSessionEnded - SessionType=A2DP_HARDWARE_OFFLOAD_ENCODING_DATAPATH
+07-26 12:30:16.304 I/BTAudioSessionAidl( 1265): ReportSessionStatus - SessionType=A2DP_HARDWARE_OFFLOAD_ENCODING_DATAPATH notify to bluetooth_audio=0x0200
+07-26 12:30:16.305 I/AHal::Bt::A2dpWrapper( 1265): SessionChangedHandle: session_cb: 512 closed
+07-26 12:30:16.305 D/AHal::Bt::A2dpWrapper( 1265): SessionChangedHandle: session_cb: 512 sent EVENT_READY_STATE_CHANGE
+07-26 12:30:16.305 I/BTAudioProviderStub( 1265): binderUnlinkedCallbackAidl
+07-26 12:30:16.305 I/BpBinder( 1265): onLastStrongRef automatically unlinking death recipients: android.hardware.bluetooth.audio.IBluetoothAudioPort
+07-26 12:30:16.307 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp_source.cc:889 btif_a2dp_source_audio_tx_stop_event: streaming false state=STATE_SHUTTING_DOWN
+07-26 12:30:16.307 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp_source.cc:693 btif_a2dp_source_cleanup_codec_delayed: state=STATE_SHUTTING_DOWN
+07-26 12:30:16.315 I/bluetooth-a2dp( 2596): system/btif/src/btif_a2dp_source.cc:583 btif_a2dp_source_shutdown_delayed: state=STATE_SHUTTING_DOWN
+07-26 12:30:16.315 I/BTAudioClientAIDL( 2596): system/audio_hal_interface/aidl/a2dp/client_interface_aidl.cc:437 EndSession: session ended already
+07-26 12:30:16.316 E/bt_btu_hcif( 2596): system/stack/btu/btu_hcif.cc:986 btu_hcif_hdl_command_complete: Command complete for opcode:0x80d should not be handled here
+07-26 12:30:16.316 I/bluetooth( 2596): system/btif/avrcp/avrcp_service.cc:556 DisconnectDevice: address=xx:xx:xx:xx:f2:e3
+07-26 12:30:16.316 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3488 set_active_peer_int: peer_sep=Sink peer=00:00:00:00:00:00
+07-26 12:30:16.317 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:518 SetActivePeer: peer=00:00:00:00:00:00 active_peer=00:00:00:00:00:00
+07-26 12:30:16.317 I/bt_shim_hci( 2596): system/main/shim/hci_layer.cc:270 operator(): ISO disconnection from GD, handle: 0x0b, reason: 0x13
+07-26 12:30:16.318 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1327 DeleteIdlePeers: peer=xx:xx:xx:xx:f2:e3 bta_handle=0x41
+07-26 12:30:16.318 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3088 btif_av_handle_event: peer=xx:xx:xx:xx:f2:e3 handle=0x0 event=BTIF_AV_STOP_STREAM_REQ_EVT(0x1d)
+07-26 12:30:16.318 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1256 FindOrCreatePeer: Create peer: peer=xx:xx:xx:xx:f2:e3 bta_handle=0x41 peer_id=0
+07-26 12:30:16.318 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1650 OnEnter: state=Idle peer=xx:xx:xx:xx:f2:e3
+07-26 12:30:16.318 W/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3885 btif_av_get_peer_sep: No active peer found
+07-26 12:30:16.318 W/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3885 btif_av_get_peer_sep: No active peer found
+07-26 12:30:16.318 W/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3885 btif_av_get_peer_sep: No active peer found
+07-26 12:30:16.318 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1686 ProcessEvent: state=Idle peer=xx:xx:xx:xx:f2:e3 event=BTIF_AV_STOP_STREAM_REQ_EVT(0x1d) flags=0x0(None) active_peer=false
+07-26 12:30:16.318 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1682 OnExit: state=Idle peer=xx:xx:xx:xx:f2:e3
+07-26 12:30:16.318 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1650 OnEnter: state=Idle peer=xx:xx:xx:xx:f2:e3
+07-26 12:30:16.318 W/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3885 btif_av_get_peer_sep: No active peer found
+07-26 12:30:16.318 W/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3885 btif_av_get_peer_sep: No active peer found
+07-26 12:30:16.318 W/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3885 btif_av_get_peer_sep: No active peer found
+07-26 12:30:16.318 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3949 btif_av_acl_disconnected: peer=xx:xx:xx:xx:f2:e3
+07-26 12:30:16.319 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3949 btif_av_acl_disconnected: peer=xx:xx:xx:xx:f2:e3
+07-26 12:30:16.319 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1327 DeleteIdlePeers: peer=xx:xx:xx:xx:f2:e3 bta_handle=0x41
+07-26 12:30:16.319 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3088 btif_av_handle_event: peer=xx:xx:xx:xx:f2:e3 handle=0x0 event=BTIF_AV_ACL_DISCONNECTED(0x20)
+07-26 12:30:16.319 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1256 FindOrCreatePeer: Create peer: peer=xx:xx:xx:xx:f2:e3 bta_handle=0x41 peer_id=0
+07-26 12:30:16.319 I/BluetoothAdapterService( 2596): getActiveDevices: A2dp device: null
+07-26 12:30:16.319 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1650 OnEnter: state=Idle peer=xx:xx:xx:xx:f2:e3
+07-26 12:30:16.319 W/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3885 btif_av_get_peer_sep: No active peer found
+07-26 12:30:16.319 W/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3885 btif_av_get_peer_sep: No active peer found
+07-26 12:30:16.319 W/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3885 btif_av_get_peer_sep: No active peer found
+07-26 12:30:16.319 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1686 ProcessEvent: state=Idle peer=xx:xx:xx:xx:f2:e3 event=BTIF_AV_ACL_DISCONNECTED(0x20) flags=0x0(None) active_peer=false
+07-26 12:30:16.319 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1682 OnExit: state=Idle peer=xx:xx:xx:xx:f2:e3
+07-26 12:30:16.319 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1650 OnEnter: state=Idle peer=xx:xx:xx:xx:f2:e3
+07-26 12:30:16.319 W/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3885 btif_av_get_peer_sep: No active peer found
+07-26 12:30:16.319 W/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3885 btif_av_get_peer_sep: No active peer found
+07-26 12:30:16.320 W/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3885 btif_av_get_peer_sep: No active peer found
+07-26 12:30:16.320 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3088 btif_av_handle_event: peer=xx:xx:xx:xx:f2:e3 handle=0x0 event=BTIF_AV_ACL_DISCONNECTED(0x20)
+07-26 12:30:16.320 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1686 ProcessEvent: state=Idle peer=xx:xx:xx:xx:f2:e3 event=BTIF_AV_ACL_DISCONNECTED(0x20) flags=0x0(None) active_peer=false
+07-26 12:30:16.320 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1682 OnExit: state=Idle peer=xx:xx:xx:xx:f2:e3
+07-26 12:30:16.320 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1650 OnEnter: state=Idle peer=xx:xx:xx:xx:f2:e3
+07-26 12:30:16.320 W/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3885 btif_av_get_peer_sep: No active peer found
+07-26 12:30:16.320 W/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3885 btif_av_get_peer_sep: No active peer found
+07-26 12:30:16.320 W/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:3885 btif_av_get_peer_sep: No active peer found
+07-26 12:30:16.320 I/bluetooth-a2dp( 2596): system/btif/src/btif_av.cc:1327 DeleteIdlePeers: peer=xx:xx:xx:xx:f2:e3 bta_handle=0x41
+07-26 12:30:16.322 D/BluetoothAdapter( 2433): getActiveDevices(HEADSET)
+07-26 12:30:16.325 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:f2:e3
+07-26 12:30:16.328 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:cb:f6
+07-26 12:30:16.331 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:09:92
+07-26 12:30:16.340 I/BluetoothAdapterService( 2596): getActiveDevices: Headset device: null
+07-26 12:30:16.345 D/BluetoothAdapter( 2433): getActiveDevices(HEARING_AID)
+07-26 12:30:16.347 I/BluetoothAdapterService( 2596): getActiveDevices: Hearing Aid devices: Left[null] - Right[null]
+07-26 12:30:16.348 D/BluetoothAdapter( 2433): getActiveDevices(LE_AUDIO)
+07-26 12:30:16.350 I/BluetoothAdapterService( 2596): getActiveDevices: LeAudio devices: Lead[null] - member_1[null]
+07-26 12:30:16.351 W/NearbyShared( 2893): BTConnStateMgr: proxy throw exception
+07-26 12:30:16.351 W/NearbyShared( 2893): java.lang.UnsupportedOperationException: LE Audio Broadcasts are not connection-oriented.
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at android.bluetooth.BluetoothLeBroadcast.getConnectedDevices(BluetoothLeBroadcast.java:342)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at gryu.s(:com.google.android.gms@252635035@25.26.35 (260400-783060121):1)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at gryu.h(:com.google.android.gms@252635035@25.26.35 (260400-783060121):49)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at gryu.a(:com.google.android.gms@252635035@25.26.35 (260400-783060121):1)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at gryu.b(:com.google.android.gms@252635035@25.26.35 (260400-783060121):30)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at ctfm.o(:com.google.android.gms@252635035@25.26.35 (260400-783060121):19)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at ctfl.a(:com.google.android.gms@252635035@25.26.35 (260400-783060121):10)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at grys.onReceive(:com.google.android.gms@252635035@25.26.35 (260400-783060121):170)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1825)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at android.app.LoadedApk$ReceiverDispatcher$Args.$r8$lambda$mcNAAl1SQ4MyJPyDg8TJ2x2h0Rk(Unknown Source:0)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at android.os.Handler.handleCallback(Handler.java:991)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at android.os.Looper.loopOnce(Looper.java:232)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at android.os.Looper.loop(Looper.java:317)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at android.app.ActivityThread.main(ActivityThread.java:8934)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at java.lang.reflect.Method.invoke(Native Method)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:591)
+07-26 12:30:16.351 W/NearbyShared( 2893): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:911)
+07-26 12:30:16.351 D/BluetoothLeBroadcastAssistant( 2893): getConnectedDevices()
+07-26 12:30:16.362 D/CachedBluetoothDevice( 2433): onProfileStateChanged: profile HEADSET, device XX:XX:XX:XX:F2:E3, newProfileState 3
+07-26 12:30:16.365 D/BluetoothAdapter( 2433): getActiveDevices(A2DP)
+07-26 12:30:16.369 I/BluetoothAdapterService( 2596): getActiveDevices: A2dp device: null
+07-26 12:30:16.376 D/CellularQualityMonitor-0( 3114): Signal Strength Changed : SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=-93 rsrp=-115 rsrq=-9 rssnr=10 cqiTableIndex=1 cqi=12 ta=6 level=2 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 0 timingAdvance = 2147483647 },primary=CellSignalStrengthLte}
+07-26 12:30:16.372 I/SHANNON_IMS( 2668): 9083 [PROX] Received onSignalStrengthsChanged [CellSignalStrengthLte: rssi=-93 rsrp=-115 rsrq=-9 rssnr=10 cqiTableIndex=1 cqi=12 ta=6 level=2 parametersUseForLevel=0] [SLID:0 APM:false] (ImsConnectivityProxyListener$ImsPhoneStateListener%onSignalStrengthsChanged:413)
+07-26 12:30:16.376 D/CellularQualityMonitor-0( 3114): CellSignalStrength Changed: CellSignalStrengthLte: rssi=-93 rsrp=-115 rsrq=-9 rssnr=10 cqiTableIndex=1 cqi=12 ta=6 level=2 parametersUseForLevel=0
+07-26 12:30:16.385 D/BluetoothAdapter( 2433): getActiveDevices(HEADSET)
+07-26 12:30:16.388 I/BluetoothAdapterService( 2596): getActiveDevices: Headset device: null
+07-26 12:30:16.388 I/Nearby  ( 2893): (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+07-26 12:30:16.389 I/NearbyDiscovery( 2893): (REDACTED) DiscoveryService onStartCommand action: %s
+07-26 12:30:16.389 I/NearbyDiscovery( 2893): (REDACTED) onProfileConnectionStateChange: action=%s, prevState=%s, state=%s, %s
+07-26 12:30:16.390 D/BluetoothAdapter( 2433): getActiveDevices(HEARING_AID)
+07-26 12:30:16.393 I/bbwi    ( 4147): onReceive
+07-26 12:30:16.393 I/BluetoothAdapterService( 2596): getActiveDevices: Hearing Aid devices: Left[null] - Right[null]
+07-26 12:30:16.393 D/BluetoothAdapter( 2433): getActiveDevices(LE_AUDIO)
+07-26 12:30:16.400 I/BluetoothAdapterService( 2596): getActiveDevices: LeAudio devices: Lead[null] - member_1[null]
+07-26 12:30:16.400 I/NearbyFastPair( 2893): WDLS created [CONTEXT service_id=265 ]
+07-26 12:30:16.401 I/NearbyDiscovery( 2893): (REDACTED) DiscoveryService onStartCommand action: %s
+07-26 12:30:16.401 D/BluetoothA2dp( 1659): getCodecStatus(XX:XX:XX:XX:F2:E3)
+07-26 12:30:16.401 I/NearbyDiscovery( 2893): (REDACTED) FastPair: HfpDevice is active, %s
+07-26 12:30:16.405 D/BluetoothAdapter( 2893): registerBluetoothConnectionCallback()
+07-26 12:30:16.405 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile HEADSET, device XX:XX:XX:XX:68:A3, isActive false
+07-26 12:30:16.405 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile HEADSET, device XX:XX:XX:XX:8F:C1, isActive false
+07-26 12:30:16.405 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile HEADSET, device XX:XX:XX:XX:96:4D, isActive false
+07-26 12:30:16.405 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile HEADSET, device XX:XX:XX:XX:74:48, isActive false
+07-26 12:30:16.405 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile HEADSET, device XX:XX:XX:XX:40:25, isActive false
+07-26 12:30:16.405 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile HEADSET, device XX:XX:XX:XX:EC:4D, isActive false
+07-26 12:30:16.405 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile HEADSET, device XX:XX:XX:XX:C9:8E, isActive false
+07-26 12:30:16.405 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile HEADSET, device XX:XX:XX:XX:4D:19, isActive false
+07-26 12:30:16.405 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile HEADSET, device XX:XX:XX:XX:1A:18, isActive false
+07-26 12:30:16.405 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile HEADSET, device XX:XX:XX:XX:C4:DE, isActive false
+07-26 12:30:16.405 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile HEADSET, device XX:XX:XX:XX:A7:9D, isActive false
+07-26 12:30:16.405 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile HEADSET, device XX:XX:XX:XX:80:09, isActive false
+07-26 12:30:16.405 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile HEADSET, device XX:XX:XX:XX:F2:E3, isActive false
+07-26 12:30:16.405 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile HEADSET, device XX:XX:XX:XX:CB:F6, isActive false
+07-26 12:30:16.405 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile HEADSET, device XX:XX:XX:XX:09:92, isActive false
+07-26 12:30:16.406 D/CachedBluetoothDevice( 2433): onProfileStateChanged: profile A2DP, device XX:XX:XX:XX:F2:E3, newProfileState 0
+07-26 12:30:16.406 D/BluetoothAdapter( 2433): getActiveDevices(A2DP)
+07-26 12:30:16.407 I/AS.BtHelper( 1659): setAvrcpAbsoluteVolumeSupported supported=false
+07-26 12:30:16.407 I/AS.AudioService( 1659): setAvrcpAbsoluteVolumeSupported support false
+07-26 12:30:16.407 I/AudioPolicyInterfaceImpl( 1327): setDeviceAbsoluteVolumeEnabled: deviceAidl AudioDevice{type: AudioDeviceDescription{type: OUT_DEVICE, connection: bt-a2dp}, address: AudioDeviceAddress{id: }}, enabled 0, streamToDriveAbsAidl -1
+07-26 12:30:16.408 I/APM_AudioPolicyManager( 1327): setDeviceAbsoluteVolumeEnabled: deviceType 0x80, enabled 0, streamToDriveAbs -1
+07-26 12:30:16.408 I/APM_AudioPolicyManager( 1327): setDeviceAbsoluteVolumeEnabled: apply stream volumes for portId 1 and device type 128
+07-26 12:30:16.408 I/NearbyShared( 2893): BTConnStateMgr: BluetoothConnectionCallback registered.
+07-26 12:30:16.408 I/BluetoothAdapterService( 2596): getActiveDevices: A2dp device: null
+07-26 12:30:16.409 D/BluetoothAdapter( 2433): getActiveDevices(HEADSET)
+07-26 12:30:16.410 I/bdic    ( 4147): (REDACTED) bluetoothConnectionStateChanged. Action: %s
+07-26 12:30:16.411 I/BluetoothAdapterService( 2596): getActiveDevices: Headset device: null
+07-26 12:30:16.412 D/BluetoothAdapter( 2433): getActiveDevices(HEARING_AID)
+07-26 12:30:16.413 I/AdapterProperties( 2596): getBondedDevices: length=15
+07-26 12:30:16.418 I/Nearby  ( 2893): (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+07-26 12:30:16.419 I/NearbyDiscovery( 2893): (REDACTED) DiscoveryService onStartCommand action: %s
+07-26 12:30:16.419 I/NearbyDiscovery( 2893): (REDACTED) onProfileConnectionStateChange: action=%s, prevState=%s, state=%s, %s
+07-26 12:30:16.421 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:68:a3
+07-26 12:30:16.421 I/BluetoothAdapterService( 2596): getActiveDevices: Hearing Aid devices: Left[null] - Right[null]
+07-26 12:30:16.422 D/BluetoothAdapter( 2433): getActiveDevices(LE_AUDIO)
+07-26 12:30:16.423 I/APM_AudioPolicyManager( 1327): setDeviceAbsoluteVolumeEnabled: apply stream volumes for portId 6 and device type 128
+07-26 12:30:16.423 I/BluetoothAdapterService( 2596): getActiveDevices: LeAudio devices: Lead[null] - member_1[null]
+07-26 12:30:16.426 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:8f:c1
+07-26 12:30:16.426 D/CachedBluetoothDevice( 2433): onProfileStateChanged: profile HEADSET, device XX:XX:XX:XX:F2:E3, newProfileState 0
+07-26 12:30:16.426 D/BluetoothAdapter( 2433): getActiveDevices(A2DP)
+07-26 12:30:16.428 I/BluetoothAdapterService( 2596): getActiveDevices: A2dp device: null
+07-26 12:30:16.430 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:96:4d
+07-26 12:30:16.431 D/BluetoothAdapter( 2433): getActiveDevices(HEADSET)
+07-26 12:30:16.433 I/NearbyDiscovery( 2893): (REDACTED) onProfileConnectionStateChange: action=%s, prevState=%s, state=%s, %s
+07-26 12:30:16.433 I/BluetoothAdapterService( 2596): getActiveDevices: Headset device: null
+07-26 12:30:16.434 D/BluetoothAdapter( 2433): getActiveDevices(HEARING_AID)
+07-26 12:30:16.435 I/NearbyFastPair( 2893): (REDACTED) WDLS onStartCommand: receive intent action=%s
+07-26 12:30:16.435 I/NearbyFastPair( 2893): (REDACTED) WDLS onStartCommand: %s: %s
+07-26 12:30:16.436 I/BluetoothAdapterService( 2596): getActiveDevices: Hearing Aid devices: Left[null] - Right[null]
+07-26 12:30:16.437 I/NearbyDiscovery( 2893): (REDACTED) FastPairController: DeviceStateManager: removeProfile: %s, action=%s
+07-26 12:30:16.437 I/NearbyDiscovery( 2893): (REDACTED) FastPairController: adjustEventStreamAfterProfileDisconnection: profiles are all disconnected, %s
+07-26 12:30:16.438 I/NearbyDiscovery( 2893): (REDACTED) FastPairController: destroyEventStream: %s
+07-26 12:30:16.438 I/NearbyDiscovery( 2893): (REDACTED) EventStreamManager: Disconnect event stream, %s
+07-26 12:30:16.438 I/Nearby  ( 2893): (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+07-26 12:30:16.438 I/NearbyFastPair( 2893): (REDACTED) FastPair, isTelephonyCallActive, callState=%s
+07-26 12:30:16.438 I/APM_AudioPolicyManager( 1327): setDeviceAbsoluteVolumeEnabled: apply stream volumes for portId 9 and device type 128
+07-26 12:30:16.440 D/BluetoothAdapter( 2433): getActiveDevices(LE_AUDIO)
+07-26 12:30:16.445 I/BluetoothAdapterService( 2596): getActiveDevices: LeAudio devices: Lead[null] - member_1[null]
+07-26 12:30:16.445 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:74:48
+07-26 12:30:16.447 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile A2DP, device XX:XX:XX:XX:68:A3, isActive false
+07-26 12:30:16.447 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile A2DP, device XX:XX:XX:XX:8F:C1, isActive false
+07-26 12:30:16.447 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile A2DP, device XX:XX:XX:XX:96:4D, isActive false
+07-26 12:30:16.447 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile A2DP, device XX:XX:XX:XX:74:48, isActive false
+07-26 12:30:16.447 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile A2DP, device XX:XX:XX:XX:40:25, isActive false
+07-26 12:30:16.447 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile A2DP, device XX:XX:XX:XX:EC:4D, isActive false
+07-26 12:30:16.447 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile A2DP, device XX:XX:XX:XX:C9:8E, isActive false
+07-26 12:30:16.447 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile A2DP, device XX:XX:XX:XX:4D:19, isActive false
+07-26 12:30:16.447 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile A2DP, device XX:XX:XX:XX:1A:18, isActive false
+07-26 12:30:16.447 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile A2DP, device XX:XX:XX:XX:C4:DE, isActive false
+07-26 12:30:16.447 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile A2DP, device XX:XX:XX:XX:A7:9D, isActive false
+07-26 12:30:16.447 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile A2DP, device XX:XX:XX:XX:80:09, isActive false
+07-26 12:30:16.447 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile A2DP, device XX:XX:XX:XX:F2:E3, isActive false
+07-26 12:30:16.447 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile A2DP, device XX:XX:XX:XX:CB:F6, isActive false
+07-26 12:30:16.447 D/CachedBluetoothDevice( 2433): onActiveDeviceChanged: profile A2DP, device XX:XX:XX:XX:09:92, isActive false
+07-26 12:30:16.448 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:40:25
+07-26 12:30:16.450 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:ec:4d
+07-26 12:30:16.451 W/NearbyShared( 2893): BTConnStateMgr: proxy throw exception
+07-26 12:30:16.451 W/NearbyShared( 2893): java.lang.UnsupportedOperationException: LE Audio Broadcasts are not connection-oriented.
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at android.bluetooth.BluetoothLeBroadcast.getConnectedDevices(BluetoothLeBroadcast.java:342)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at gryu.s(:com.google.android.gms@252635035@25.26.35 (260400-783060121):1)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at gryu.h(:com.google.android.gms@252635035@25.26.35 (260400-783060121):49)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at gryu.a(:com.google.android.gms@252635035@25.26.35 (260400-783060121):1)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at gryu.b(:com.google.android.gms@252635035@25.26.35 (260400-783060121):30)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at ctfm.o(:com.google.android.gms@252635035@25.26.35 (260400-783060121):19)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at ctfl.a(:com.google.android.gms@252635035@25.26.35 (260400-783060121):10)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at grys.onReceive(:com.google.android.gms@252635035@25.26.35 (260400-783060121):170)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1825)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at android.app.LoadedApk$ReceiverDispatcher$Args.$r8$lambda$mcNAAl1SQ4MyJPyDg8TJ2x2h0Rk(Unknown Source:0)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at android.os.Handler.handleCallback(Handler.java:991)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at android.os.Looper.loopOnce(Looper.java:232)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at android.os.Looper.loop(Looper.java:317)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at android.app.ActivityThread.main(ActivityThread.java:8934)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at java.lang.reflect.Method.invoke(Native Method)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:591)
+07-26 12:30:16.451 W/NearbyShared( 2893): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:911)
+07-26 12:30:16.451 D/BluetoothLeBroadcastAssistant( 2893): getConnectedDevices()
+07-26 12:30:16.453 I/APM_AudioPolicyManager( 1327): setDeviceAbsoluteVolumeEnabled: apply stream volumes for portId 11 and device type 128
+07-26 12:30:16.455 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:c9:8e
+07-26 12:30:16.456 I/AdapterProperties( 2596): getBondedDevices: length=15
+07-26 12:30:16.462 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:4d:19
+07-26 12:30:16.464 I/NearbyDiscovery( 2893): (REDACTED) DiscoveryService onStartCommand action: %s
+07-26 12:30:16.465 I/NearbyDiscovery( 2893): (REDACTED) onProfileConnectionStateChange: action=%s, prevState=%s, state=%s, %s
+07-26 12:30:16.465 I/APM_AudioPolicyManager( 1327): setDeviceAbsoluteVolumeEnabled: apply stream volumes for portId 13 and device type 128
+07-26 12:30:16.466 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:1a:18
+07-26 12:30:16.470 I/NearbyDiscovery( 2893): (REDACTED) DiscoveryService onStartCommand action: %s
+07-26 12:30:16.473 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:c4:de
+07-26 12:30:16.477 I/APM_AudioPolicyManager( 1327): setDeviceAbsoluteVolumeEnabled: apply stream volumes for portId 17 and device type 128
+07-26 12:30:16.478 I/APM_AudioPolicyManager( 1327): setDeviceAbsoluteVolumeEnabled: apply stream volumes for portId 2108 and device type 128
+07-26 12:30:16.479 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:a7:9d
+07-26 12:30:16.479 I/Nearby  ( 2893): (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+07-26 12:30:16.487 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:80:09
+07-26 12:30:16.491 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:f2:e3
+07-26 12:30:16.492 D/DeviceHalAidl( 1327): [default] prepareToDisconnectExternalDevice: device AudioPort{id: 2091, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_DEVICE, connection: bt-a2dp}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:16.492 I/ASvc::Module( 1265): prepareToDisconnectExternalDevice: prepare to disconnect external device from port 300025
+07-26 12:30:16.492 D/DeviceHalAidl( 1327): [r_submix] prepareToDisconnectExternalDevice: device AudioPort{id: 2091, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_DEVICE, connection: bt-a2dp}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:16.493 D/DeviceHalAidl( 1327): [bluetooth] prepareToDisconnectExternalDevice: device AudioPort{id: 2091, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_DEVICE, connection: bt-a2dp}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:16.493 D/DeviceHalAidl( 1327): [default] setConnectedState: connected 0 port: AudioPort{id: 2091, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_DEVICE, connection: bt-a2dp}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:16.493 D/Hal2AidlMapper( 1327): [default] setDevicePortConnectedState: state disconnected, device AudioPort{id: 2091, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_DEVICE, connection: bt-a2dp}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:16.493 D/Hal2AidlMapper( 1327): [default] setDevicePortConnectedState: device port for device AudioDevice{type: AudioDeviceDescription{type: OUT_DEVICE, connection: bt-a2dp}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}} found
+07-26 12:30:16.493 D/Hal2AidlMapper( 1327): [default] releaseAudioPatch: patchId 245
+07-26 12:30:16.493 I/ASvc::Module( 1265): resetAudioPatch: patch id = 245
+07-26 12:30:16.493 I/AHal::Router( 1265): InvalidateLocked: nothing change between graph #3032 and #3033
+07-26 12:30:16.494 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:cb:f6
+07-26 12:30:16.494 D/Hal2AidlMapper( 1327): [default] resetPortConfig: AudioPortConfig{id: 400293, portId: 300025, sampleRate: Int{value: 48000}, channelMask: AudioChannelLayout{layoutMask: 3}, format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, gain: (null), flags: AudioIoFlags{output: 0}, ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_DEVICE, connection: bt-a2dp}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:16.494 I/ASvc::Module( 1265): resetAudioPortConfig: port config id = 400293
+07-26 12:30:16.494 I/ASvc::Module( 1265): disconnectExternalDevice: disconnecting an external device from port 300025
+07-26 12:30:16.494 I/AHal::PortRouteManager( 1265): UpdateRoutes: disconnect port 300025, template port 100007
+07-26 12:30:16.494 I/AHal::PortRouteManager( 1265): UpdateHifiProfiles: port 300025, disconnecting
+07-26 12:30:16.494 I/AHal::DeviceManager( 1265): RemoveDynamicPortMapping: dynamic port ID = 300025
+07-26 12:30:16.494 I/AHal::BT( 1265): DisconnectDevice: bluetooth-a2dp-device
+07-26 12:30:16.494 I/AHal::Bt::A2dpWrapper( 1265): TearDown: 0xb400007987f9c320 512
+07-26 12:30:16.497 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:09:92
+07-26 12:30:16.497 I/bdhc    ( 4147): Deinitializing Gemini service client
+07-26 12:30:16.499 I/bdhh    ( 4147): Deinitializing PhoneMediaHandler
+07-26 12:30:16.511 I/bt_btif_dm( 2596): system/btif/src/btif_dm.cc:852 btif_dm_get_connection_state: Acl is not connected to peer:xx:xx:xx:xx:f2:e3
+07-26 12:30:16.515 I/ActiveUnlock( 2893): (REDACTED) BluetoothDevice %s connection state changed: %s, transport: %d, hashcode: %s
+07-26 12:30:16.517 W/NearbyFastPair( 2893): BluetoothDeviceHelper: cannot get uuids XX:XX:XX:XX:09:92 [CONTEXT service_id=265 ]
+07-26 12:30:16.517 I/NearbyFastPair( 2893): (REDACTED) BluetoothDeviceHelper: bonded device %s [%s]
+07-26 12:30:16.518 I/NearbyShared( 2893): (REDACTED) BTConnStateMgr: tryReconnectProxy called but proxy is not connected, try reconnect and wait, profile=%s
+07-26 12:30:16.523 D/BluetoothAdapter( 2893): A2DP connected
+07-26 12:30:16.533 I/NearbyDiscovery( 2893): (REDACTED) DiscoveryService onStartCommand action: %s
+07-26 12:30:16.534 I/NearbyDiscovery( 2893): (REDACTED) FastPair: HfpDevice disconnected, %s
+07-26 12:30:16.534 I/NearbyDiscovery( 2893): (REDACTED) onProfileConnectionStateChange: action=%s, prevState=%s, state=%s, %s
+07-26 12:30:16.537 I/Nearby  ( 2893): (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+07-26 12:30:16.538 I/NearbyShared( 2893): (REDACTED) BTConnStateMgr: onServiceConnected with profile %d.
+07-26 12:30:16.538 I/NearbyShared( 2893): (REDACTED) BTConnStateMgr: tryReconnectProxy reconnect profile %d successful. Latency=%dms
+07-26 12:30:16.540 I/NearbyShared( 2893): (REDACTED) BTConnStateMgr: tryReconnectProxy called but proxy is not connected, try reconnect and wait, profile=%s
+07-26 12:30:16.541 D/BluetoothAdapter( 2893): HEADSET connected
+07-26 12:30:16.545 I/NearbyDiscovery( 2893): (REDACTED) DiscoveryService onStartCommand action: %s
+07-26 12:30:16.545 I/Nearby  ( 2893): (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+07-26 12:30:16.546 I/NearbyShared( 2893): (REDACTED) BTConnStateMgr: onServiceConnected with profile %d.
+07-26 12:30:16.546 I/NearbyShared( 2893): (REDACTED) BTConnStateMgr: tryReconnectProxy reconnect profile %d successful. Latency=%dms
+07-26 12:30:16.548 I/NearbyDiscovery( 2893): (REDACTED) DiscoveryService onStartCommand action: %s
+07-26 12:30:16.548 I/NearbyDiscovery( 2893): (REDACTED) onAclChange: state=%s, %s
+07-26 12:30:16.551 I/Nearby  ( 2893): (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+07-26 12:30:16.551 I/NearbyShared( 2893): (REDACTED) BTConnStateMgr: tryReconnectProxy called but proxy is not connected, try reconnect and wait, profile=%s
+07-26 12:30:16.552 D/BluetoothAdapter( 2893): LE_AUDIO connected
+07-26 12:30:16.553 I/NearbyShared( 2893): (REDACTED) BTConnStateMgr: onServiceConnected with profile %d.
+07-26 12:30:16.553 I/NearbyShared( 2893): (REDACTED) BTConnStateMgr: tryReconnectProxy reconnect profile %d successful. Latency=%dms
+07-26 12:30:16.553 I/NearbyFastPair( 2893): WDLS getConnectedProfiles: Add LE_AUDIO in profile list [CONTEXT service_id=265 ]
+07-26 12:30:16.553 I/NearbyDiscovery( 2893): (REDACTED) DiscoveryService onStartCommand action: %s
+07-26 12:30:16.553 I/NearbyDiscovery( 2893): (REDACTED) FastPair: HfpDevice disconnected, %s
+07-26 12:30:16.554 I/NearbyDiscovery( 2893): (REDACTED) onProfileConnectionStateChange: action=%s, prevState=%s, state=%s, %s
+07-26 12:30:16.557 I/NearbyFastPair( 2893): BluetoothDeviceHelper: getConnectedDeviceWithProfiles put devices for BluetoothLeAudio [CONTEXT service_id=265 ]
+07-26 12:30:16.562 D/BluetoothAdapter( 2893): getActiveDevices(LE_AUDIO)
+07-26 12:30:16.563 I/BluetoothAdapterService( 2596): getActiveDevices: LeAudio devices: Lead[null] - member_1[null]
+07-26 12:30:16.564 W/NearbyShared( 2893): BluetoothDeviceInfoUtils: active device is null
+07-26 12:30:16.564 W/NearbyShared( 2893): BluetoothDeviceInfoUtils: active device is null
+07-26 12:30:16.565 I/NearbyFastPair( 2893): BluetoothDeviceHelper: getActiveDeviceWithProfiles no leAudioDevices [CONTEXT service_id=265 ]
+07-26 12:30:16.583 I/NearbyShared( 2893): (REDACTED) ServiceBinder: bind service %s:%s, state=%s
+07-26 12:30:16.583 I/AdapterProperties( 2596): getBondedDevices: length=15
+07-26 12:30:16.587 I/AdapterProperties( 2596): getBondedDevices: length=15
+07-26 12:30:16.601 I/NearbyShared( 2893): (REDACTED) ServiceBinder: bind service %s:%s, state=%s
+07-26 12:30:16.609 I/NearbyShared( 2893): (REDACTED) ServiceBinder: bind service %s:%s, state=%s
+07-26 12:30:16.616 I/NearbyShared( 2893): (REDACTED) ServiceBinder: bind service %s:%s, state=%s
+07-26 12:30:16.624 I/NearbyShared( 2893): (REDACTED) ServiceBinder: bind service %s:%s, state=%s
+07-26 12:30:16.632 I/NearbyShared( 2893): (REDACTED) ServiceBinder: bind service %s:%s, state=%s
+07-26 12:30:16.643 I/NearbyShared( 2893): (REDACTED) ServiceBinder: bind service %s:%s, state=%s
+07-26 12:30:16.648 I/NearbyShared( 2893): (REDACTED) ServiceBinder: bind service %s:%s, state=%s
+07-26 12:30:16.653 I/NearbyShared( 2893): (REDACTED) ServiceBinder: bind service %s:%s, state=%s
+07-26 12:30:16.658 I/NearbyShared( 2893): (REDACTED) ServiceBinder: bind service %s:%s, state=%s
+07-26 12:30:16.664 I/NearbyShared( 2893): (REDACTED) ServiceBinder: bind service %s:%s, state=%s
+07-26 12:30:16.669 I/NearbyShared( 2893): (REDACTED) ServiceBinder: bind service %s:%s, state=%s
+07-26 12:30:16.674 I/NearbyShared( 2893): (REDACTED) ServiceBinder: bind service %s:%s, state=%s
+07-26 12:30:16.679 I/NearbyShared( 2893): (REDACTED) ServiceBinder: bind service %s:%s, state=%s
+07-26 12:30:16.682 I/NearbyFastPair( 2893): compareConnectedPeripherals: connected hfp change. [CONTEXT service_id=265 ]
+07-26 12:30:16.699 I/NearbyFastPair( 2893): WDLS updateLocalNodeInfo: updated local node [CONTEXT service_id=265 ]
+07-26 12:30:16.702 I/NearbyFastPair( 2893): (REDACTED) WDLS onStartCommand: receive intent action=%s
+07-26 12:30:16.702 D/BluetoothAdapter( 2893): A2DP disconnected
+07-26 12:30:16.702 D/BluetoothAdapter( 2893): HEADSET disconnected
+07-26 12:30:16.702 D/BluetoothAdapter( 2893): LE_AUDIO disconnected
+07-26 12:30:16.703 D/BluetoothAdapter( 2893): unregisterBluetoothConnectionCallback()
+07-26 12:30:16.703 I/NearbyShared( 2893): (REDACTED) ServiceBinder: unbind service %s
+07-26 12:30:16.704 I/NearbyFastPair( 2893): WDLS destroyed [CONTEXT service_id=265 ]
+07-26 12:30:16.705 I/NearbyShared( 2893): (REDACTED) BTConnStateMgr: onServiceDisconnected with profile %d.
+07-26 12:30:16.705 I/NearbyShared( 2893): (REDACTED) BTConnStateMgr: onServiceDisconnected with profile %d.
+07-26 12:30:16.705 I/NearbyShared( 2893): (REDACTED) BTConnStateMgr: onServiceDisconnected with profile %d.
+07-26 12:30:16.814 I/AHal::Bt::A2dpWrapper( 1265): PollingDelayThreadLoop: bt-polling-delay exit
+07-26 12:30:16.814 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-LIGHT-ODPM:36.4816 raw data: VIRTUAL-SKIN:36481.6 VIRTUAL-SKIN-CPU-LIGHT-ODPM:36481.6 VIRTUAL-SKIN-SUB-0:35452.6 VIRTUAL-SKIN-SUB-1:35805.1 VIRTUAL-SKIN-SUB-2:35743 VIRTUAL-SKIN-SUB-3:36481.6 VIRTUAL-SKIN-SUB-4:34803.9 VIRTUAL-SKIN-SUB-5:34969.3 VIRTUAL-SKIN-SUB-6:35646.9 VIRTUAL-SKIN-SUB-7:35384.3 VIRTUAL-SKIN-SUB-8:35670.9 battery:36400 cam_therm:36180 charge_therm:40929 disp_therm:36068 neutral_therm:38272 north_therm:35890 quiet_therm:36291 soc_therm:37782 usb_pwr_therm:37048 
+07-26 12:30:16.814 I/AHal::Bt::A2dpWrapper( 1265): StopStream: A2DP 512 State::kDisabled (0)
+07-26 12:30:16.815 I/ASvc::Module( 1265): getAudioRoutes: routes count = 27
+07-26 12:30:16.815 D/DeviceHalAidl( 1327): [r_submix] setConnectedState: connected 0 port: AudioPort{id: 2091, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_DEVICE, connection: bt-a2dp}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:16.815 D/Hal2AidlMapper( 1327): [r_submix] setDevicePortConnectedState: state disconnected, device AudioPort{id: 2091, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_DEVICE, connection: bt-a2dp}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:16.815 D/DeviceHalAidl( 1327): [bluetooth] setConnectedState: connected 0 port: AudioPort{id: 2091, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_DEVICE, connection: bt-a2dp}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:16.815 D/Hal2AidlMapper( 1327): [bluetooth] setDevicePortConnectedState: state disconnected, device AudioPort{id: 2091, name: Airdopes 141 ANC, profiles: [AudioProfile{name: , format: AudioFormatDescription{type: PCM, pcm: DEFAULT, encoding: }, channelMasks: [AudioChannelLayout{layoutMask: 3}], sampleRates: [48000], encapsulationType: NONE}], flags: AudioIoFlags{output: 0}, extraAudioDescriptors: [], gains: [], ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_DEVICE, connection: bt-a2dp}, address: AudioDeviceAddress{mac: [8, 228, 223, 148, 242, 227]}}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}
+07-26 12:30:16.818 D/DeviceHalAidl( 1327): [default] releaseAudioPatch: patch: 245
+07-26 12:30:16.819 D/BTAudioSessionAidl( 1265): GetSupportedLatencyModes - SessionType=LE_AUDIO_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+07-26 12:30:16.819 D/BTAudioSessionAidl( 1265): SetLatencyMode - SessionType=LE_AUDIO_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+07-26 12:30:16.819 D/BTAudioSessionAidl( 1265): GetSupportedLatencyModes - SessionType=A2DP_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+07-26 12:30:16.819 D/BTAudioSessionAidl( 1265): SetLatencyMode - SessionType=A2DP_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+07-26 12:30:16.820 W/APM::Devices( 1327): DeviceVector::remove device 00000080 not in
+07-26 12:30:16.822 I/AS.AudioDeviceInventory( 1659): A2DP device addr=XX:XX:XX:XX:F2:E3 made unavailable
+07-26 12:30:16.824 V/MediaRouter(27927): Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+07-26 12:30:16.825 V/MediaRouter( 5315): Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+07-26 12:30:16.825 V/MediaRouter( 2893): Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-LIGHT-ODPM power_budget=1807.34 err=2.51836 s_power=800 time_elapsed_ms=7011 p=1007.34 i=0 d=0 compensation=0 budget transient=0 control target=2
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-LIGHT-ODPM binded power rails: (S4M_VDD_CPUCL0: 55.14 mW)(S2M_VDD_CPUCL2: 0.98 mW)(S3M_VDD_CPUCL1: 9.43 mW)
+07-26 12:30:16.826 I/pixel-thermal( 2092): cellular-emergency:36.4816 raw data: VIRTUAL-SKIN:36481.6 cellular-emergency:36481.6 
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-MID:36.4816 raw data: VIRTUAL-SKIN:36481.6 VIRTUAL-SKIN-CPU-MID:36481.6 
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-HINT:36.4816 raw data: VIRTUAL-SKIN:36481.6 VIRTUAL-SKIN-HINT:36481.6 
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-HIGH:36.4816 raw data: VIRTUAL-SKIN:36481.6 VIRTUAL-SKIN-CPU-HIGH:36481.6 
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-SOC:36.4816 raw data: VIRTUAL-SKIN:36481.6 VIRTUAL-SKIN-SOC:36481.6 
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-SOC power_budget=3355.51 err=8.51836 s_power=800 time_elapsed_ms=7011 p=2555.51 i=0 d=0 compensation=0 budget transient=0 control target=3
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-SOC binded power rails: (S4M_VDD_CPUCL0: 55.14 mW)(S2M_VDD_CPUCL2: 0.98 mW)(S3M_VDD_CPUCL1: 9.43 mW)(S2S_VDD_G3D: 0.45 mW)(S7M_VDD_TPU: 0.00 mW)
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN:36.4816 raw data: VIRTUAL-SKIN:36481.6 
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-GPU:36.4816 raw data: VIRTUAL-SKIN:36481.6 VIRTUAL-SKIN-GPU:36481.6 
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-SPEAKER:33.714 raw data: VIRTUAL-SKIN-SPEAKER:33714 VIRTUAL-SKIN-SPEAKER-SUB-0:32137.6 VIRTUAL-SKIN-SPEAKER-SUB-1:33714 VIRTUAL-SKIN-SPEAKER-SUB-2:33597.5 VIRTUAL-SKIN-SPEAKER-SUB-3:33455.4 battery:36400 cam_therm:36180 charge_therm:40929 disp_therm:36068 neutral_therm:38272 north_therm:35890 quiet_therm:36291 soc_therm:37782 usb_pwr_therm:37048 
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-WIRED:36.2667 raw data: NO_WLC:1 VIRTUAL-SKIN-CHARGE:36266.7 VIRTUAL-SKIN-CHARGE-SUB-0:35775.5 VIRTUAL-SKIN-CHARGE-SUB-1:34915 VIRTUAL-SKIN-CHARGE-SUB-2:35766 VIRTUAL-SKIN-CHARGE-SUB-3:35937.6 VIRTUAL-SKIN-CHARGE-SUB-4:36266.7 VIRTUAL-SKIN-CHARGE-SUB-5:35799.4 VIRTUAL-SKIN-CHARGE-SUB-6:34516.3 VIRTUAL-SKIN-CHARGE-WIRED:36266.7 WLC_CHECK:1 battery:36400 cam_therm:36180 charge_therm:40929 disp_therm:36068 neutral_therm:38272 north_therm:35890 quiet_therm:36291 soc_therm:37782 thb_hda:54 usb_pwr_therm:37048 
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-WIRED power_budget=3678.06 err=1.73331 s_power=2404 time_elapsed_ms=7011 p=175.064 i=1099 d=-0 compensation=0 budget transient=0 control target=2
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-WIRED power budget=3646.01 after (PARTIAL_SYSTEM_POWER: 320.50 mW, cdev_weight: 0.100000) is excluded
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-WIRED binded power rails: (PARTIAL_SYSTEM_POWER: 320.50 mW, cdev_weight: 0.100000)
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-PERSIST:36.2667 raw data: VIRTUAL-SKIN-CHARGE:36266.7 VIRTUAL-SKIN-CHARGE-PERSIST:36266.7 
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-PERSIST power_budget=3908.26 err=4.73331 s_power=2066 time_elapsed_ms=7011 p=776.262 i=1066 d=-0 compensation=0 budget transient=0 control target=2
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-PERSIST power budget=3856.98 after (PARTIAL_SYSTEM_POWER: 320.50 mW, cdev_weight: 0.160000) is excluded
+07-26 12:30:16.826 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-PERSIST binded power rails: (PARTIAL_SYSTEM_POWER: 320.50 mW, cdev_weight: 0.160000)
+07-26 12:30:16.827 V/MediaRouter( 1659): Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+07-26 12:30:16.827 I/MediaRouter( 1659): Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+07-26 12:30:16.827 V/MediaRouter( 1659): Audio routes updated: AudioRoutesInfo{ type=SPEAKER }, a2dp=false
+07-26 12:30:16.827 V/MediaRouter( 1659): Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+07-26 12:30:16.828 V/MediaRouter( 2433): Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+07-26 12:30:16.829 I/MediaRouter( 5315): Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+07-26 12:30:16.829 I/MediaRouter( 2433): Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+07-26 12:30:16.830 V/MediaRouter( 2433): Audio routes updated: AudioRoutesInfo{ type=SPEAKER }, a2dp=false
+07-26 12:30:16.830 V/MediaRouter( 2433): Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+07-26 12:30:16.830 I/MediaRouter(27927): Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+07-26 12:30:16.831 V/MediaRouter( 5315): Audio routes updated: AudioRoutesInfo{ type=SPEAKER }, a2dp=false
+07-26 12:30:16.831 I/MediaRouter( 2893): Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+07-26 12:30:16.831 V/MediaRouter( 5315): Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+07-26 12:30:16.833 I/Telecom ( 1659): WiredHeadsetManager: ACTION_HEADSET_PLUG event, plugged in: false, : WHC.oADR@T44
+07-26 12:30:16.846 W/AxMediaRouter(27927): Changing selection(Airdopes 141 ANC(BT=true, syncMediaRoute1Provider=false)) to default while BT is available: pkgName=com.google.android.youtube- Stacktrace: [dyx.m:204, dzw.j:9, eai.i:67, eac.onRouteSelected:3, android.media.MediaRouter.dispatchRouteSelected:1364, android.media.MediaRouter.selectRouteStatic:1120, android.media.MediaRouter.selectDefaultRouteStatic:1133, android.media.MediaRouter.removeRouteStatic:1246, android.media.MediaRouter$Static.updateAudioRoutes:264, android.media.MediaRouter$Static$1$1.run:132, android.os.Handler.handleCallback:991, android.os.Handler.dispatchMessage:102, android.os.Looper.loopOnce:232, android.os.Looper.loop:317, android.app.ActivityThread.main:8934, java.lang.reflect.Method.invoke:-2, com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run:591, com.android.internal.os.ZygoteInit.main:911]
+07-26 12:30:16.846 V/MediaRouter(27927): Audio routes updated: AudioRoutesInfo{ type=SPEAKER }, a2dp=false
+07-26 12:30:16.846 V/MediaRouter(27927): Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+07-26 12:30:16.847 I/MR2ServiceImpl( 1659): removeProviderRoutes | provider: com.android.server.media/.SystemMediaRoute2Provider, routes: [08:E4:DF:94:F2:E3 | Airdopes 141 ANC]
+07-26 12:30:16.849 I/AS.SpatializerHelper( 1659): Device incompatible with Spatial Audio dev:AudioDeviceAttributes: role:output type:speaker addr: name: profiles:[] descriptors:[]
+07-26 12:30:16.849 I/AS.SpatializerHelper( 1659): onRoutingUpdated: device:AudioDeviceAttributes: role:output type:speaker addr: name: profiles:[] descriptors:[] not available for Spatial Audio
+07-26 12:30:16.849 I/AS.SpatializerHelper( 1659): setDispatchAvailableState(false) mState:STATE_ENABLED_UNAVAILABLE
+07-26 12:30:16.849 I/AS.SpatializerHelper( 1659): Disabling Spatial Audio since disabled for media device:AudioDeviceAttributes: role:output type:speaker addr: name: profiles:[] descriptors:[]
+07-26 12:30:16.849 I/AS.SpatializerHelper( 1659): Setting spatialization level to: 0
+07-26 12:30:16.850 I/AdapterProperties( 2596): getBondedDevices: length=15
+07-26 12:30:16.851 D/Spatializer( 1327): checkSensorsState_l: setRequestedLatencyMode for output thread(501) to FREE returned 0
+07-26 12:30:16.851 I/bntz    ( 4147): (REDACTED) #onAudioDevicesRemoved count: %s
+07-26 12:30:16.851 I/AS.SpatializerHelper( 1659): setDispatchFeatureEnabledState(false) mState:STATE_DISABLED_UNAVAILABLE
+07-26 12:30:16.851 I/AS.SpatializerHelper( 1659): SpatializerCallback.onLevelChanged level:0
+07-26 12:30:16.851 I/bntt    ( 4147): (REDACTED) #isBluetoothOrWiredHeadsetConnected Number of connected audio devices: %s
+07-26 12:30:16.852 I/bntz    ( 4147): (REDACTED) #onChange eventType: %s
+07-26 12:30:16.852 I/bmkb    ( 4147): (REDACTED) #onHeadsetConnectionEvent: %s
+07-26 12:30:16.852 I/bmif    ( 4147): (REDACTED) starting updateConfig, reason: %s
+07-26 12:30:16.854 I/ASvc::Effect( 1265): command (0xb400007a17f9aaa0): Decibel Spatializer Library receive command STOP
+07-26 12:30:16.854 I/EHal::OffloadEffect( 1265): Stop (Decibel Spatializer Library): stop
+07-26 12:30:16.854 W/ASvc::Effect( 1265): Stop: no start time, skip end time
+07-26 12:30:16.854 I/ASvc::Effect( 1265): command (0xb400007a17f9aaa0): Decibel Spatializer Library current state = IDLE
+07-26 12:30:16.854 I/ASvc::Effect( 1265): close (0xb400007a17f9aaa0): close Decibel Spatializer Library
+07-26 12:30:16.854 I/ASvc::OffloadLibrary( 1265): DestroyEffect: destroy effect 0xb400007a17f9aaa0
+07-26 12:30:16.855 W/audioserver( 1327): Binder 0xb400007983f570c0 destroyed after setInheritRt before being parceled.
+07-26 12:30:16.855 W/audioserver( 1327): Binder 0xb400007983f570c0 destroyed after setMinSchedulerPolicy before being parceled.
+07-26 12:30:16.855 I/bmtk    ( 4147): #getEarcons
+07-26 12:30:16.855 I/ASvc::Factory( 1265): createEffect: create effect from libdownmixaidl.so
+07-26 12:30:16.855 I/ASvc::Factory( 1265): createEffect: effect 0xb400007907fbbc50
+07-26 12:30:16.855 I/bntt    ( 4147): (REDACTED) #isBluetoothOrWiredHeadsetConnected Number of connected audio devices: %s
+07-26 12:30:16.856 I/EffectHalAidl( 1327): createAidlConversion create UUID AudioUuid{timeLow: 941509068, timeMid: 43096, timeHiAndVersion: 19106, clockSeq: 34806, node: [232, 56, 142, 118, 1, 178]}
+07-26 12:30:16.856 I/AS.SpatializerHelper( 1659): SpatializerCallback.onOutputChanged output:0
+07-26 12:30:16.856 D/EffectConversionHelperAidl( 1327): handleSetConfig at state INIT, opening effect with input AudioConfig{base: AudioConfigBase{sampleRate: 48000, channelMask: AudioChannelLayout{layoutMask: 63}, format: AudioFormatDescription{type: PCM, pcm: FLOAT_32_BIT, encoding: }}, offloadInfo: AudioOffloadInfo{base: AudioConfigBase{sampleRate: 0, channelMask: AudioChannelLayout{none: 0}, format: AudioFormatDescription{type: DEFAULT, pcm: DEFAULT, encoding: }}, streamType: INVALID, bitRatePerSecond: 0, durationUs: 0, hasVideo: false, isStreaming: false, bitWidth: 16, offloadBufferSize: 0, usage: INVALID, encapsulationMode: INVALID, contentId: 0, syncId: 0}, frameCount: 480} output AudioConfig{base: AudioConfigBase{sampleRate: 48000, channelMask: AudioChannelLayout{layoutMask: 63}, format: AudioFormatDescription{type: PCM, pcm: FLOAT_32_BIT, encoding: }}, offloadInfo: AudioOffloadInfo{base: AudioConfigBase{sampleRate: 0, channelMask: AudioChannelLayout{none: 0}, format: AudioFormatDescription{type: DEFAULT, pcm: DEFAULT, encoding: }}, streamType: INVALID, b
+07-26 12:30:16.856 I/bqha    ( 4147): (REDACTED) #isRobinOnlyLocale checkedLocale:%s language:%s list:%s
+07-26 12:30:16.857 E/AHAL_DownmixContext( 1265): validateCommonConfig: output should be stereo, not AudioChannelLayout{layoutMask: 63}
+07-26 12:30:16.857 E/AHAL_EffectImpl( 1265): open: line92 return with expr !mImplContext
+07-26 12:30:16.857 E/EffectConversionHelperAidl( 1327): Function: handleSetConfig Line: 192 Failed 
+07-26 12:30:16.858 D/EffectConversionHelperAidl( 1327): handleSetConfig at state INIT, opening effect with input AudioConfig{base: AudioConfigBase{sampleRate: 48000, channelMask: AudioChannelLayout{layoutMask: 63}, format: AudioFormatDescription{type: PCM, pcm: FLOAT_32_BIT, encoding: }}, offloadInfo: AudioOffloadInfo{base: AudioConfigBase{sampleRate: 0, channelMask: AudioChannelLayout{none: 0}, format: AudioFormatDescription{type: DEFAULT, pcm: DEFAULT, encoding: }}, streamType: INVALID, bitRatePerSecond: 0, durationUs: 0, hasVideo: false, isStreaming: false, bitWidth: 16, offloadBufferSize: 0, usage: INVALID, encapsulationMode: INVALID, contentId: 0, syncId: 0}, frameCount: 480} output AudioConfig{base: AudioConfigBase{sampleRate: 48000, channelMask: AudioChannelLayout{layoutMask: 63}, format: AudioFormatDescription{type: PCM, pcm: FLOAT_32_BIT, encoding: }}, offloadInfo: AudioOffloadInfo{base: AudioConfigBase{sampleRate: 0, channelMask: AudioChannelLayout{none: 0}, format: AudioFormatDescription{type: DEFAULT, pcm: DEFAULT, encoding: }}, streamType: INVALID, b
+07-26 12:30:16.858 E/AHAL_DownmixContext( 1265): validateCommonConfig: output should be stereo, not AudioChannelLayout{layoutMask: 63}
+07-26 12:30:16.858 E/AHAL_EffectImpl( 1265): open: line92 return with expr !mImplContext
+07-26 12:30:16.858 E/EffectConversionHelperAidl( 1327): Function: handleSetConfig Line: 192 Failed 
+07-26 12:30:16.858 D/StreamHalAidl( 1327): [out|ioHandle:501] dump
+07-26 12:30:16.860 W/AudioFlinger( 1327): checkEffectCompatibility_l: non post processing effect Multichannel Downmix To Stereo not allowed on output stage session
+07-26 12:30:16.860 W/AudioFlinger( 1327): moveEffectChain_ll: effect chain failed because destination thread 0xb400007aa106dfe8 is not compatible with effects in the chain
+07-26 12:30:16.861 D/StreamHalAidl( 1327): [out|ioHandle:501] exit
+07-26 12:30:16.861 I/ASvc::StreamCommonImpl( 1265): prepareToClose
+07-26 12:30:16.861 I/bmuh    ( 4147): (REDACTED) FCF System FeatureName to check: %s
+07-26 12:30:16.861 E/AHAL_EffectImpl( 1265): command: line271 return with expr mState == State::INIT
+07-26 12:30:16.861 I/AHAL_EffectImpl( 1265): close: line125 return with expr mState == State::INIT
+07-26 12:30:16.861 D/AHAL_EffectImpl( 1265): destroyEffect Multichannel Downmix To Stereo instance 0xb400007907fbbc50 destroyed
+07-26 12:30:16.861 W/audioserver( 1327): Binder 0xb400007983f5b7a0 destroyed after setInheritRt before being parceled.
+07-26 12:30:16.861 W/audioserver( 1327): Binder 0xb400007983f5b7a0 destroyed after setMinSchedulerPolicy before being parceled.
+07-26 12:30:16.862 D/StreamHalAidl( 1327): [out|ioHandle:501] ~StreamHalAidl
+07-26 12:30:16.862 E/AHAL_EffectImpl( 1265): command: line271 return with expr mState == State::INIT
+07-26 12:30:16.862 I/AHAL_EffectImpl( 1265): close: line125 return with expr mState == State::INIT
+07-26 12:30:16.862 I/ASvc::StreamCommonImpl( 1265): close (spatializer-offload-playback) : closing spatializer-offload-playback, on 400294
+07-26 12:30:16.862 I/ASvc::CommandWorker( 1265): cw-spatializer-offload-playback: exit command form HAL
+07-26 12:30:16.861 I/bmuh    ( 4147): (REDACTED) FCF: Device model check status : %s
+07-26 12:30:16.863 I/AUtl::Worker( 1265): Loop: cw-spatializer-offload-playback thread exit
+07-26 12:30:16.863 I/bnbj    ( 4147): #isGeminiDefaultSystemFeatureEnabled: false
+07-26 12:30:16.863 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.863 I/AUtl::Worker( 1265): Loop: pw-spatializer-offload-playback thread exit
+07-26 12:30:16.863 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.863 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.863 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.863 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.863 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.864 I/bmzm    ( 4147): Robin is eligible and opted-in
+07-26 12:30:16.864 I/bmzm    ( 4147): (REDACTED) Headphone Integration status: %s
+07-26 12:30:16.864 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.865 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.865 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.865 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.865 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.865 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.865 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.865 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.865 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.865 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.866 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.866 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.866 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.866 I/bmqa    ( 4147): openMicEarlyInInteractorProcess is enabled. Mic is not suppressed even when delegation is disabled.
+07-26 12:30:16.868 I/eowa    ( 4147): (REDACTED) isAppDefaultAssistant setting: %s
+07-26 12:30:16.868 I/eowa    ( 4147): (REDACTED) isAppDefaultAssistant defaultComponentName: %s
+07-26 12:30:16.872 I/btsg    ( 4147): (REDACTED) DelegationStatus: %s
+07-26 12:30:16.872 W/AxMediaRouter( 2893): Changing selection(Airdopes 141 ANC(BT=true, syncMediaRoute1Provider=false)) to default while BT is available: pkgName=com.google.android.gms- Stacktrace: [msn.j:167, muv.k:10, mvl.i:64, mvb.onRouteSelected:3, android.media.MediaRouter.dispatchRouteSelected:1364, android.media.MediaRouter.selectRouteStatic:1120, android.media.MediaRouter.selectDefaultRouteStatic:1133, android.media.MediaRouter.removeRouteStatic:1246, android.media.MediaRouter$Static.updateAudioRoutes:264, android.media.MediaRouter$Static$1$1.run:132, android.os.Handler.handleCallback:991, android.os.Handler.dispatchMessage:102, android.os.Looper.loopOnce:232, android.os.Looper.loop:317, android.app.ActivityThread.main:8934, java.lang.reflect.Method.invoke:-2, com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run:591, com.android.internal.os.ZygoteInit.main:911]
+07-26 12:30:16.873 I/bmqi    ( 4147): (REDACTED) Populated bump behaviors: %s
+07-26 12:30:16.874 I/bmqp    ( 4147): (REDACTED) Client type %s set for %s
+07-26 12:30:16.874 I/bmqp    ( 4147): (REDACTED) Client type %s set for %s
+07-26 12:30:16.874 I/bmqp    ( 4147): (REDACTED) Client type %s set for %s
+07-26 12:30:16.875 I/bqha    ( 4147): (REDACTED) #isRobinOnlyLocale checkedLocale:%s language:%s list:%s
+07-26 12:30:16.875 I/bmuh    ( 4147): (REDACTED) FCF System FeatureName to check: %s
+07-26 12:30:16.876 I/bmuh    ( 4147): (REDACTED) FCF: Device model check status : %s
+07-26 12:30:16.876 I/bnae    ( 4147): (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+07-26 12:30:16.877 I/bmha    ( 4147): (REDACTED) #initialConfig Current Locale set to: %s
+07-26 12:30:16.877 I/bmha    ( 4147): (REDACTED) #initialConfig Assistant is currently enabled: %s
+07-26 12:30:16.877 I/bmha    ( 4147): (REDACTED) #initialConfig InputModality is currently: %s
+07-26 12:30:16.877 I/bmha    ( 4147): (REDACTED) #initialConfig Speed Bump entry points: %s
+07-26 12:30:16.877 I/bmha    ( 4147): (REDACTED) #initialConfig Long Press Power Education entrypoints: %s
+07-26 12:30:16.877 I/bmha    ( 4147): (REDACTED) #initialConfig Robin entrypoints: %s
+07-26 12:30:16.877 I/bmha    ( 4147): (REDACTED) #initialConfig Preferred audio route type: %s
+07-26 12:30:16.877 I/bmha    ( 4147): (REDACTED) #initialConfig Earcons to be added: %s
+07-26 12:30:16.877 I/bmha    ( 4147): (REDACTED) #initialConfig Mic occupied behavior: %s
+07-26 12:30:16.877 I/bmha    ( 4147): (REDACTED) #initialConfig Headphone voice queries and spoken notifications status: %s
+07-26 12:30:16.879 V/MediaRouter( 2893): Audio routes updated: AudioRoutesInfo{ type=SPEAKER }, a2dp=false
+07-26 12:30:16.879 V/MediaRouter( 2893): Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+07-26 12:30:16.880 I/eowa    ( 4147): (REDACTED) isAppDefaultAssistant setting: %s
+07-26 12:30:16.880 I/eowa    ( 4147): (REDACTED) isAppDefaultAssistant defaultComponentName: %s
+07-26 12:30:16.880 I/btsg    ( 4147): (REDACTED) DelegationStatus: %s
+07-26 12:30:16.882 I/AxMediaRouter( 2893): Clearing the bluetooth route because it is no longer selectable: MediaRouter.RouteInfo{ uniqueId=ROUTE_ce7ba1ad, name=Airdopes 141 ANC, description=Bluetooth audio, iconUri=null, enabled=true, isSystemRoute=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=3, volumeHandling=1, volume=14, volumeMax=25, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+07-26 12:30:16.887 I/SensorManager( 1659): Removing dynamic sensor listener
+07-26 12:30:16.887 I/smedia  ( 5315): SMediaNodeHelper.aliveConnection(): No connected node.
+07-26 12:30:16.887 I/AS.SpatializerHelper( 1659): setScreenSensor:-1
+07-26 12:30:16.887 I/AS.SpatializerHelper( 1659): setHeadSensor:-1
+07-26 12:30:16.888 I/AS.SpatializerHelper( 1659): setDesiredHeadTrackingMode(HEAD_TRACKING_MODE_RELATIVE_WORLD)
+07-26 12:30:16.888 I/system_server( 1659): Background concurrent mark compact GC freed 93MB AllocSpace bytes, 35(2604KB) LOS objects, 53% free, 84MB/180MB, paused 1.201ms,4.982ms total 308.264ms
+07-26 12:30:16.890 I/BpBinder( 1659): onLastStrongRef automatically unlinking death recipients: 
+07-26 12:30:16.892 I/BpBinder( 1659): onLastStrongRef automatically unlinking death recipients: 
+07-26 12:30:16.892 I/vol.Events( 2433): writeEvent level_changed STREAM_SYSTEM 6
+07-26 12:30:16.893 I/vol.Events( 2433): writeEvent level_changed STREAM_MUSIC 14
+07-26 12:30:16.893 I/bmxc    (12836): (REDACTED) #FCF: Managed profile check status : %s
+07-26 12:30:16.894 I/bnbo    (12836): Robin eligibility: Device is eligible.
+07-26 12:30:16.894 I/bviq    (12836): (REDACTED) #TRIGGER_TYPE type is: %s
+07-26 12:30:16.894 I/bviq    (12836): (REDACTED) #TRIGGER_TYPE islockscreen is: %s
+07-26 12:30:16.895 I/bmuh    (12836): (REDACTED) FCF System FeatureName to check: %s
+07-26 12:30:16.896 I/bmuh    (12836): (REDACTED) FCF: Device model check status : %s
+07-26 12:30:16.896 I/bnbj    (12836): #isGeminiDefaultSystemFeatureEnabled: false
+07-26 12:30:16.897 I/bmuh    (12836): (REDACTED) FCF System FeatureName to check: %s
+07-26 12:30:16.897 I/bmuh    (12836): (REDACTED) FCF: Device model check status : %s
+07-26 12:30:16.897 I/bnbj    (12836): #isGeminiDefaultSystemFeatureEnabled: false
+07-26 12:30:16.903 I/bnbc    (12836): (REDACTED) %s was not found: %s
+07-26 12:30:16.907 W/System  ( 1659): A resource failed to call HardwareBuffer.close. 
+07-26 12:30:16.909 I/bshq    (12836): (REDACTED) Provider package not found: %s
+07-26 12:30:16.910 I/brwu    (12836): ClockLookupExecutor is not enabled.
+07-26 12:30:16.910 I/bshq    (12836): (REDACTED) Provider package %s enabled: %s
+07-26 12:30:16.910 I/bshq    (12836): (REDACTED) Provider package %s enabled: %s
+07-26 12:30:16.910 W/ConstraintSet( 2433): id unknown center_vertical_guideline
+07-26 12:30:16.910 W/ConstraintSet( 2433): id unknown action_button_guideline
+07-26 12:30:16.910 W/ConstraintSet( 2433): id unknown icon
+07-26 12:30:16.910 W/ConstraintSet( 2433): id unknown media_seamless
+07-26 12:30:16.910 I/eowa    (12836): (REDACTED) isAppDefaultAssistant setting: %s
+07-26 12:30:16.910 W/ConstraintSet( 2433): id unknown media_action_barrier_start
+07-26 12:30:16.910 I/eowa    (12836): (REDACTED) isAppDefaultAssistant defaultComponentName: %s
+07-26 12:30:16.910 W/ConstraintSet( 2433): id unknown media_action_barrier_end
+07-26 12:30:16.910 W/ConstraintSet( 2433): id unknown media_action_barrier_top
+07-26 12:30:16.911 W/ConstraintSet( 2433): id unknown remove_text
+07-26 12:30:16.911 W/ConstraintSet( 2433): id unknown settings
+07-26 12:30:16.911 W/ConstraintSet( 2433): id unknown dismiss
+07-26 12:30:16.911 W/ConstraintSet( 2433): id unknown cancel
+07-26 12:30:16.913 I/eowa    (12836): (REDACTED) isAppDefaultAssistant setting: %s
+07-26 12:30:16.914 I/eowa    (12836): (REDACTED) isAppDefaultAssistant defaultComponentName: %s
+07-26 12:30:16.914 I/bshq    (12836): (REDACTED) Provider package %s enabled: %s
+07-26 12:30:16.914 I/bshq    (12836): (REDACTED) Provider package %s enabled: %s
+07-26 12:30:16.914 I/bshq    (12836): (REDACTED) Provider package %s enabled: %s
+07-26 12:30:16.915 I/bshq    (12836): (REDACTED) Provider package %s enabled: %s
+07-26 12:30:16.916 I/eowa    (12836): (REDACTED) isAppDefaultAssistant setting: %s
+07-26 12:30:16.916 I/eowa    (12836): (REDACTED) isAppDefaultAssistant defaultComponentName: %s
+07-26 12:30:16.916 I/bshq    (12836): (REDACTED) Provider package %s enabled: %s
+07-26 12:30:16.918 I/eowa    (12836): (REDACTED) isAppDefaultAssistant setting: %s
+07-26 12:30:16.918 I/eowa    (12836): (REDACTED) isAppDefaultAssistant defaultComponentName: %s
+07-26 12:30:16.919 I/bshq    (12836): (REDACTED) Provider package %s enabled: %s
+07-26 12:30:16.919 I/brtv    (12836): CreateCalendarEventExecutor is not enabled.
+07-26 12:30:16.920 I/brvb    (12836): DeviceStateLookUpExecutor getRequiredCapabilities
+07-26 12:30:16.920 I/bruo    (12836): DeleteNoteExecutor is not enabled.
+07-26 12:30:16.921 I/brwh    (12836): UpdateNoteExecutor is not enabled.
+07-26 12:30:16.921 I/brwh    (12836): UpdateNoteExecutor is not enabled.
+07-26 12:30:16.923 I/eowa    (12836): (REDACTED) isAppDefaultAssistant setting: %s
+07-26 12:30:16.924 I/eowa    (12836): (REDACTED) isAppDefaultAssistant defaultComponentName: %s
+07-26 12:30:16.928 I/bmxc    (12836): (REDACTED) #FCF: Managed profile check status : %s
+07-26 12:30:16.929 I/bndq    (12836): (REDACTED) isCacheFresh: %s
+07-26 12:30:16.932 I/bmuh    (12836): (REDACTED) FCF System FeatureName to check: %s
+07-26 12:30:16.933 I/bmuh    (12836): (REDACTED) FCF: Device model check status : %s
+07-26 12:30:16.933 I/bnbj    (12836): #isGeminiDefaultSystemFeatureEnabled: false
+07-26 12:30:16.934 I/brcx    (12836): Robin eligibility : Robin is eligible
+07-26 12:30:16.938 I/bnbn    ( 4147): (REDACTED) Robin eligibility #evaluate: isEnabled = %s failure reasons: %s
+07-26 12:30:16.940 I/bmuh    ( 4147): (REDACTED) FCF System FeatureName to check: %s
+07-26 12:30:16.940 I/bmuh    ( 4147): (REDACTED) FCF: Device model check status : %s
+07-26 12:30:16.940 I/bnbj    ( 4147): #isGeminiDefaultSystemFeatureEnabled: false
+07-26 12:30:16.940 I/bmha    ( 4147): Robin backend selected for headphone invocations.
+07-26 12:30:16.941 I/bmto    ( 4147): (REDACTED) #FCF: Preferred assistant locale set %s 
+07-26 12:30:16.941 I/bnap    ( 4147): (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+07-26 12:30:16.942 I/bmto    ( 4147): (REDACTED) #FCF: Preferred assistant locale set %s 
+07-26 12:30:16.942 I/bnak    ( 4147): (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+07-26 12:30:16.942 I/bmha    ( 4147): (REDACTED) Needs to download files: %s
+07-26 12:30:16.943 I/bmif    ( 4147): (REDACTED) Updated config based on request %s, currentClient %s
+07-26 12:30:16.944 I/etqr    ( 4147): (REDACTED) New message(%s, @%s) received at connection(%s).
+07-26 12:30:16.944 I/etqr    ( 4147): (REDACTED) Message(%s, @%s) has been successfully processed at connection(%s).
+07-26 12:30:16.944 I/etkl    ( 4147): (REDACTED) Connection state changed: %s.
+07-26 12:30:16.950 I/etkl    ( 4147): (REDACTED) Invocations routing has changed
+07-26 12:30:16.950 I/etkl    ( 4147): %s
+07-26 12:30:17.351 I/smedia  ( 5315): SMediaAudioHelper.onReceive(android.media.STREAM_DEVICES_CHANGED_ACTION)
+07-26 12:30:17.352 I/smedia  ( 5315): SMediaNodeHelper.aliveConnection(): No connected node.
+07-26 12:30:17.363 I/smedia  ( 5315): SMediaAudioHelper.onReceive(android.media.STREAM_DEVICES_CHANGED_ACTION)
+07-26 12:30:17.364 I/smedia  ( 5315): SMediaNodeHelper.aliveConnection(): No connected node.
+07-26 12:30:17.364 I/smedia  ( 5315): SMediaAudioHelper.onReceive(android.media.STREAM_DEVICES_CHANGED_ACTION)
+07-26 12:30:17.364 I/smedia  ( 5315): SMediaNodeHelper.aliveConnection(): No connected node.
+07-26 12:30:17.366 I/Connection4Heart( 5315): ConnectionReceiver.onReceive-android.bluetooth.device.action.ACL_DISCONNECTED
+07-26 12:30:17.369 I/smedia  ( 5315): SMediaAudioHelper.onReceive(android.media.STREAM_DEVICES_CHANGED_ACTION)
+07-26 12:30:17.370 I/smedia  ( 5315): SMediaNodeHelper.aliveConnection(): No connected node.
+07-26 12:30:17.370 I/Connection4Heart( 5315): BluetoothEventHandler.onBluetoothEvent-action: android.bluetooth.device.action.ACL_DISCONNECTED
+07-26 12:30:17.370 I/smedia  ( 5315): SMediaAudioHelper.onReceive(android.media.STREAM_DEVICES_CHANGED_ACTION)
+07-26 12:30:17.370 I/smedia  ( 5315): SMediaNodeHelper.aliveConnection(): No connected node.
+07-26 12:30:17.370 I/smedia  ( 5315): SMediaAudioHelper.onReceive(android.media.STREAM_DEVICES_CHANGED_ACTION)
+07-26 12:30:17.370 I/smedia  ( 5315): SMediaNodeHelper.aliveConnection(): No connected node.
+07-26 12:30:17.371 W/Connection4Heart( 5315): WatchData.isManualConnectWatch() : do not have device - ##:##:##:##:F2:E3!!
+07-26 12:30:17.372 I/Connection4Heart( 5315): ConnectionHandler.getDeviceFromIntent() : non contain watch - ##:##:##:##:F2:E3
+07-26 12:30:17.376 I/AdapterProperties( 2596): getBondedDevices: length=15
+07-26 12:30:17.428 I/smedia  ( 5315): SMediaNodeHelper.aliveConnection(): No connected node.
+07-26 12:30:17.428 I/smedia  ( 5315): SMediaAudioHelper.onReceive(android.media.STREAM_DEVICES_CHANGED_ACTION)
+07-26 12:30:17.428 I/smedia  ( 5315): SMediaNodeHelper.aliveConnection(): No connected node.
+07-26 12:30:17.429 I/smedia  ( 5315): SMediaAudioHelper.onReceive(android.media.STREAM_DEVICES_CHANGED_ACTION)
+07-26 12:30:17.429 I/smedia  ( 5315): SMediaNodeHelper.aliveConnection(): No connected node.
+07-26 12:30:17.429 I/smedia  ( 5315): SMediaAudioHelper.onReceive(android.media.STREAM_DEVICES_CHANGED_ACTION)
+07-26 12:30:17.429 I/smedia  ( 5315): SMediaNodeHelper.aliveConnection(): No connected node.
+07-26 12:30:17.429 I/smedia  ( 5315): SMediaAudioHelper.onReceive(android.media.STREAM_DEVICES_CHANGED_ACTION)
+07-26 12:30:17.429 I/smedia  ( 5315): SMediaNodeHelper.aliveConnection(): No connected node.
+07-26 12:30:17.540 I/pixel-thermal( 2092): disp_therm:36.068 raw data: disp_therm:36068 
+07-26 12:30:17.552 I/pixel-thermal( 2092): VIRTUAL-USB-UI:1 raw data: USB-MINUS-NEUTRAL:-1224 USB-MINUS-QUIET:757 USB_QUIET_RFFE:757 VIRTUAL-USB-UI:1 VIRTUAL-USB-UI-SUB0:0 VSYS_PWR_RFFE:0 neutral_therm:38272 quiet_therm:36291 usb_pwr_therm:37048 
+07-26 12:30:17.552 I/pixel-thermal( 2092): usb_pwr_therm:37.048 raw data: usb_pwr_therm:37048 
+07-26 12:30:17.553 I/pixel-thermal( 2092): cam_therm:36.18 raw data: cam_therm:36180 
+07-26 12:30:17.553 I/pixel-thermal( 2092): VIRTUAL-USB-THROTTLING:1 raw data: USB-MINUS-NEUTRAL:-1224 USB-MINUS-QUIET:757 USB_QUIET_RFFE:757 VIRTUAL-USB-THROTTLING:1 VIRTUAL-USB-THROTTLING-SUB0:0 usb_pwr_therm:37048 
+07-26 12:30:18.446 I/AidlLazyServiceRegistrar(25306): Process has 0 (of 1 available) client(s) in use after notification artd has clients: 0
+07-26 12:30:18.446 I/AidlLazyServiceRegistrar(25306): Trying to shut down the service. No clients in use for any service in process.
+07-26 12:30:18.448 D/ImpulseConnection( 2612): timeout didn't happen: com.google.android.apps.turbo
+07-26 12:30:18.448 I/AidlLazyServiceRegistrar(25306): Unregistered all clients and exiting
+07-26 12:30:18.478 D/TemperatureStateSource( 2612): sequence=4981 actualDelay=10001
+07-26 12:30:18.479 D/TemperatureStateSource( 2612): Reading temperature: sequence=4982
+07-26 12:30:18.484 I/pixel-thermal( 2092): VIRTUAL-SKIN:36.4816 raw data: VIRTUAL-SKIN:36481.6 
+07-26 12:30:18.492 D/TemperatureStateSource( 2612): getDeviceTemperatures: sequence=4982 deviceTemperatureType=3 temperatureSource=0 temperatures=[36.481644]
+07-26 12:30:18.492 D/BusinessScope( 2612): Enqueuing the block
+07-26 12:30:18.493 D/TemperatureStateSource( 2612): sequence=4982 waitTime=10000
+07-26 12:30:18.493 D/BusinessScope( 2612): Start running the #11174 block
+07-26 12:30:18.494 D/BusinessScope( 2612): Enqueuing the block
+07-26 12:30:18.495 D/ImpulseStateSource( 2612): Notify clients: 5586
+07-26 12:30:18.495 D/BusinessScope( 2612): Finish running the #11174 block
+07-26 12:30:18.495 D/BusinessScope( 2612): Start running the #11175 block
+07-26 12:30:18.496 D/BusinessScope( 2612): Finish running the #11175 block
+07-26 12:30:20.351 I/pixel-thermal( 2092): quiet_therm:36.335 raw data: quiet_therm:36335 
+07-26 12:30:22.216 W/pixelstats-vendor( 3392): Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: android.frameworks.stats.IStats/default
+07-26 12:30:22.261 D/DLObserver( 2433): onReceive(); android.intent.action.BATTERY_CHANGED
+07-26 12:30:22.262 D/DLObserver( 2433): plugged=2
+07-26 12:30:22.264 D/SystemEventDataSource( 2433): onReceive: intentAction
+07-26 12:30:22.270 I/ReverseChargingControl( 2433): handleIntentForReverseCharging(): rtx=0 wlc=0 plgac=0 ac=0 acrtx=0 extra=2 this=com.google.android.systemui.reversecharging.ReverseChargingController@b824cf6
+07-26 12:30:22.270 D/PowerNotificationWarningsGoogleImpl( 2433): onReceive: android.intent.action.BATTERY_CHANGED
+07-26 12:30:22.271 D/PowerUI ( 2433): can't show warning due to - plugged: true status unknown: false
+07-26 12:30:22.271 D/IncompatibleChargerNotification( 2433): dispatchIntent: android.intent.action.BATTERY_CHANGED
+07-26 12:30:22.273 D/GoogleBatteryDataSource( 2433): fetchDwellDefendStatus: CONNECTED
+07-26 12:30:22.275 D/GoogleBatteryDataSource( 2433): fetchTempDefendStatus: t_sum=0, time_sum=0 t_avg=0 lst_v=0 lst_t=0 lst_u=0, dt=34531, t=0 e=1
+07-26 12:30:22.276 D/SystemEventDataSource( 2433): updatedEventData: SystemEventData(intentAction=android.intent.action.BATTERY_CHANGED, plugged=EventData(value=2), batteryScale=EventData(value=100), batteryLevel=EventData(value=70), chargingStatus=EventData(value=1), maxChargingCurrent=EventData(value=3000000), maxChargingVoltage=EventData(value=5000000), batteryStatus=EventData(value=2), halEventData=HalEventData(dockDefendStatus=EventData(value=-3), tempDefendEventData=EventData(value=false), dwellDefendEventData=EventData(value=false)), settingsEventData=SettingsEventData(dockDefenderBypass=EventData(value=0), chargingLimitSettings=EventData(value=0), dndState=EventData(value=false), airplaneState=EventData(value=false)), frameworkApiEventData=FrameworkApiEventData(batterySaverState=EventData(value=false), extremeBatterySaverState=EventData(value=false)))
+07-26 12:30:22.276 D/SystemEventDataSource( 2433): extra doesn't changed, no need to onEventSourceUpdate
+07-26 12:30:22.280 I/bluetooth( 2596): system/bta/dm/bta_dm_pm.cc:601 bta_dm_pm_set_mode: Device list count is zero
+07-26 12:30:23.837 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-LIGHT-ODPM:36.4618 raw data: VIRTUAL-SKIN:36461.8 VIRTUAL-SKIN-CPU-LIGHT-ODPM:36461.8 VIRTUAL-SKIN-SUB-0:35434.2 VIRTUAL-SKIN-SUB-1:35773.4 VIRTUAL-SKIN-SUB-2:35693.5 VIRTUAL-SKIN-SUB-3:36461.8 VIRTUAL-SKIN-SUB-4:34775.4 VIRTUAL-SKIN-SUB-5:34913.4 VIRTUAL-SKIN-SUB-6:35666.4 VIRTUAL-SKIN-SUB-7:35345.7 VIRTUAL-SKIN-SUB-8:35624.5 battery:36300 cam_therm:36068 charge_therm:40952 disp_therm:36001 neutral_therm:38250 north_therm:35868 quiet_therm:36269 soc_therm:37894 usb_pwr_therm:37048 
+07-26 12:30:23.846 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-LIGHT-ODPM power_budget=1815.28 err=2.53821 s_power=800 time_elapsed_ms=7015 p=1015.28 i=0 d=0 compensation=0 budget transient=0 control target=2
+07-26 12:30:23.846 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-LIGHT-ODPM binded power rails: (S4M_VDD_CPUCL0: 184.15 mW)(S2M_VDD_CPUCL2: 5.54 mW)(S3M_VDD_CPUCL1: 153.07 mW)
+07-26 12:30:23.847 I/pixel-thermal( 2092): cellular-emergency:36.4618 raw data: VIRTUAL-SKIN:36461.8 cellular-emergency:36461.8 
+07-26 12:30:23.847 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-MID:36.4618 raw data: VIRTUAL-SKIN:36461.8 VIRTUAL-SKIN-CPU-MID:36461.8 
+07-26 12:30:23.847 I/pixel-thermal( 2092): VIRTUAL-SKIN-HINT:36.4618 raw data: VIRTUAL-SKIN:36461.8 VIRTUAL-SKIN-HINT:36461.8 
+07-26 12:30:23.848 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-HIGH:36.4618 raw data: VIRTUAL-SKIN:36461.8 VIRTUAL-SKIN-CPU-HIGH:36461.8 
+07-26 12:30:23.848 I/pixel-thermal( 2092): VIRTUAL-SKIN-SOC:36.4618 raw data: VIRTUAL-SKIN:36461.8 VIRTUAL-SKIN-SOC:36461.8 
+07-26 12:30:23.848 I/pixel-thermal( 2092): VIRTUAL-SKIN-SOC power_budget=3361.46 err=8.53821 s_power=800 time_elapsed_ms=7015 p=2561.46 i=0 d=0 compensation=0 budget transient=0 control target=3
+07-26 12:30:23.848 I/pixel-thermal( 2092): VIRTUAL-SKIN-SOC binded power rails: (S4M_VDD_CPUCL0: 184.15 mW)(S2M_VDD_CPUCL2: 5.54 mW)(S3M_VDD_CPUCL1: 153.07 mW)(S2S_VDD_G3D: 0.52 mW)(S7M_VDD_TPU: 0.00 mW)
+07-26 12:30:23.849 I/pixel-thermal( 2092): VIRTUAL-SKIN:36.4618 raw data: VIRTUAL-SKIN:36461.8 
+07-26 12:30:23.849 I/pixel-thermal( 2092): VIRTUAL-SKIN-GPU:36.4618 raw data: VIRTUAL-SKIN:36461.8 VIRTUAL-SKIN-GPU:36461.8 
+07-26 12:30:23.851 I/pixel-thermal( 2092): VIRTUAL-SKIN-SPEAKER:33.6866 raw data: VIRTUAL-SKIN-SPEAKER:33686.6 VIRTUAL-SKIN-SPEAKER-SUB-0:32080.6 VIRTUAL-SKIN-SPEAKER-SUB-1:33686.6 VIRTUAL-SKIN-SPEAKER-SUB-2:33559.8 VIRTUAL-SKIN-SPEAKER-SUB-3:33412 battery:36300 cam_therm:36068 charge_therm:40952 disp_therm:36001 neutral_therm:38250 north_therm:35868 quiet_therm:36269 soc_therm:37894 usb_pwr_therm:37048 
+07-26 12:30:23.853 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-WIRED:36.2144 raw data: NO_WLC:1 VIRTUAL-SKIN-CHARGE:36214.4 VIRTUAL-SKIN-CHARGE-SUB-0:35755.3 VIRTUAL-SKIN-CHARGE-SUB-1:34901.4 VIRTUAL-SKIN-CHARGE-SUB-2:35737 VIRTUAL-SKIN-CHARGE-SUB-3:35901.9 VIRTUAL-SKIN-CHARGE-SUB-4:36214.4 VIRTUAL-SKIN-CHARGE-SUB-5:35800.4 VIRTUAL-SKIN-CHARGE-SUB-6:34511.4 VIRTUAL-SKIN-CHARGE-WIRED:36214.4 WLC_CHECK:1 battery:36300 cam_therm:36068 charge_therm:40952 disp_therm:36001 neutral_therm:38250 north_therm:35868 quiet_therm:36269 soc_therm:37894 thb_hda:54 usb_pwr_therm:37048 
+07-26 12:30:23.853 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-WIRED power_budget=3683.35 err=1.78562 s_power=2404 time_elapsed_ms=7015 p=180.347 i=1099 d=0 compensation=0 budget transient=0 control target=2
+07-26 12:30:23.853 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-WIRED power budget=3646.58 after (PARTIAL_SYSTEM_POWER: 367.70 mW, cdev_weight: 0.100000) is excluded
+07-26 12:30:23.854 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-WIRED binded power rails: (PARTIAL_SYSTEM_POWER: 367.70 mW, cdev_weight: 0.100000)
+07-26 12:30:23.854 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-PERSIST:36.2144 raw data: VIRTUAL-SKIN-CHARGE:36214.4 VIRTUAL-SKIN-CHARGE-PERSIST:36214.4 
+07-26 12:30:23.854 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-PERSIST power_budget=3916.84 err=4.78562 s_power=2066 time_elapsed_ms=7015 p=784.841 i=1066 d=0 compensation=0 budget transient=0 control target=2
+07-26 12:30:23.854 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-PERSIST power budget=3858.01 after (PARTIAL_SYSTEM_POWER: 367.70 mW, cdev_weight: 0.160000) is excluded
+07-26 12:30:23.854 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-PERSIST binded power rails: (PARTIAL_SYSTEM_POWER: 367.70 mW, cdev_weight: 0.160000)
+07-26 12:30:24.569 I/pixel-thermal( 2092): disp_therm:36.001 raw data: disp_therm:36001 
+07-26 12:30:24.577 I/pixel-thermal( 2092): VIRTUAL-USB-UI:1 raw data: USB-MINUS-NEUTRAL:-1202 USB-MINUS-QUIET:779 USB_QUIET_RFFE:779 VIRTUAL-USB-UI:1 VIRTUAL-USB-UI-SUB0:0 VSYS_PWR_RFFE:0 neutral_therm:38250 quiet_therm:36269 usb_pwr_therm:37048 
+07-26 12:30:24.577 I/pixel-thermal( 2092): usb_pwr_therm:37.048 raw data: usb_pwr_therm:37048 
+07-26 12:30:24.578 I/pixel-thermal( 2092): cam_therm:36.068 raw data: cam_therm:36068 
+07-26 12:30:24.578 I/pixel-thermal( 2092): VIRTUAL-USB-THROTTLING:1 raw data: USB-MINUS-NEUTRAL:-1202 USB-MINUS-QUIET:779 USB_QUIET_RFFE:779 VIRTUAL-USB-THROTTLING:1 VIRTUAL-USB-THROTTLING-SUB0:0 usb_pwr_therm:37048 
+07-26 12:30:25.456 D/ActivityManager( 1659): freezing 27927 com.google.android.youtube
+07-26 12:30:25.475 D/ActivityManager( 1659): freezing 13295 com.whatsapp
+07-26 12:30:25.482 D/ActivityManager( 1659): freezing 22241 org.thunderdog.challegram
+07-26 12:30:25.493 D/InetDiagMessage( 1659): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-26 12:30:25.496 D/InetDiagMessage( 1659): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+07-26 12:30:25.496 D/InetDiagMessage( 1659): Destroyed live tcp sockets for uids={10215} in 7ms
+07-26 12:30:25.502 D/InetDiagMessage( 1659): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-26 12:30:25.507 D/InetDiagMessage( 1659): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+07-26 12:30:25.507 D/InetDiagMessage( 1659): Destroyed live tcp sockets for uids={10278} in 9ms
+07-26 12:30:25.512 D/InetDiagMessage( 1659): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-26 12:30:25.515 D/InetDiagMessage( 1659): Destroyed 1 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+07-26 12:30:25.515 D/InetDiagMessage( 1659): Destroyed live tcp sockets for uids={10291} in 8ms
+07-26 12:30:27.364 I/pixel-thermal( 2092): quiet_therm:36.269 raw data: quiet_therm:36269 
+07-26 12:30:28.320 I/device_iot_config( 2596): system/device/src/device_iot_config_int.cc:194 device_iot_config_write: evt=1
+07-26 12:30:28.496 D/TemperatureStateSource( 2612): sequence=4982 actualDelay=10003
+07-26 12:30:28.497 D/TemperatureStateSource( 2612): Reading temperature: sequence=4983
+07-26 12:30:28.513 I/pixel-thermal( 2092): VIRTUAL-SKIN:36.4618 raw data: VIRTUAL-SKIN:36461.8 VIRTUAL-SKIN-SUB-0:35434.2 VIRTUAL-SKIN-SUB-1:35773.4 VIRTUAL-SKIN-SUB-2:35693.5 VIRTUAL-SKIN-SUB-3:36461.8 VIRTUAL-SKIN-SUB-4:34775.4 VIRTUAL-SKIN-SUB-5:34913.4 VIRTUAL-SKIN-SUB-6:35666.4 VIRTUAL-SKIN-SUB-7:35345.7 VIRTUAL-SKIN-SUB-8:35624.5 battery:36300 cam_therm:36068 charge_therm:40952 disp_therm:36001 neutral_therm:38250 north_therm:35868 quiet_therm:36269 soc_therm:37894 usb_pwr_therm:37048 
+07-26 12:30:28.515 D/TemperatureStateSource( 2612): getDeviceTemperatures: sequence=4983 deviceTemperatureType=3 temperatureSource=0 temperatures=[36.46179]
+07-26 12:30:28.515 D/BusinessScope( 2612): Enqueuing the block
+07-26 12:30:28.516 D/TemperatureStateSource( 2612): sequence=4983 waitTime=10000
+07-26 12:30:28.516 D/BusinessScope( 2612): Start running the #11176 block
+07-26 12:30:28.517 D/BusinessScope( 2612): Enqueuing the block
+07-26 12:30:28.517 D/ImpulseStateSource( 2612): Notify clients: 5587
+07-26 12:30:28.518 D/BusinessScope( 2612): Finish running the #11176 block
+07-26 12:30:28.518 D/BusinessScope( 2612): Start running the #11177 block
+07-26 12:30:28.519 D/BusinessScope( 2612): Finish running the #11177 block
+07-26 12:30:30.852 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-LIGHT-ODPM:36.4149 raw data: VIRTUAL-SKIN:36414.9 VIRTUAL-SKIN-CPU-LIGHT-ODPM:36414.9 VIRTUAL-SKIN-SUB-0:35387.2 VIRTUAL-SKIN-SUB-1:35738.6 VIRTUAL-SKIN-SUB-2:35679.1 VIRTUAL-SKIN-SUB-3:36414.9 VIRTUAL-SKIN-SUB-4:34751.7 VIRTUAL-SKIN-SUB-5:34899.9 VIRTUAL-SKIN-SUB-6:35603.4 VIRTUAL-SKIN-SUB-7:35332.9 VIRTUAL-SKIN-SUB-8:35615.2 battery:36300 cam_therm:36091 charge_therm:40883 disp_therm:36001 neutral_therm:38227 north_therm:35801 quiet_therm:36246 soc_therm:37760 usb_pwr_therm:37003 
+07-26 12:30:30.860 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-LIGHT-ODPM power_budget=1834.06 err=2.58514 s_power=800 time_elapsed_ms=7017 p=1034.06 i=0 d=0 compensation=0 budget transient=0 control target=2
+07-26 12:30:30.861 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-LIGHT-ODPM binded power rails: (S4M_VDD_CPUCL0: 55.68 mW)(S2M_VDD_CPUCL2: 0.90 mW)(S3M_VDD_CPUCL1: 0.70 mW)
+07-26 12:30:30.861 I/pixel-thermal( 2092): cellular-emergency:36.4149 raw data: VIRTUAL-SKIN:36414.9 cellular-emergency:36414.9 
+07-26 12:30:30.861 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-MID:36.4149 raw data: VIRTUAL-SKIN:36414.9 VIRTUAL-SKIN-CPU-MID:36414.9 
+07-26 12:30:30.862 I/pixel-thermal( 2092): VIRTUAL-SKIN-HINT:36.4149 raw data: VIRTUAL-SKIN:36414.9 VIRTUAL-SKIN-HINT:36414.9 
+07-26 12:30:30.862 I/pixel-thermal( 2092): VIRTUAL-SKIN-CPU-HIGH:36.4149 raw data: VIRTUAL-SKIN:36414.9 VIRTUAL-SKIN-CPU-HIGH:36414.9 
+07-26 12:30:30.862 I/pixel-thermal( 2092): VIRTUAL-SKIN-SOC:36.4149 raw data: VIRTUAL-SKIN:36414.9 VIRTUAL-SKIN-SOC:36414.9 
+07-26 12:30:30.862 I/pixel-thermal( 2092): VIRTUAL-SKIN-SOC power_budget=3375.54 err=8.58514 s_power=800 time_elapsed_ms=7017 p=2575.54 i=0 d=0 compensation=0 budget transient=0 control target=3
+07-26 12:30:30.863 I/pixel-thermal( 2092): VIRTUAL-SKIN-SOC binded power rails: (S4M_VDD_CPUCL0: 55.68 mW)(S2M_VDD_CPUCL2: 0.90 mW)(S3M_VDD_CPUCL1: 0.70 mW)(S2S_VDD_G3D: 0.45 mW)(S7M_VDD_TPU: 0.00 mW)
+07-26 12:30:30.863 I/pixel-thermal( 2092): VIRTUAL-SKIN:36.4149 raw data: VIRTUAL-SKIN:36414.9 
+07-26 12:30:30.863 I/pixel-thermal( 2092): VIRTUAL-SKIN-GPU:36.4149 raw data: VIRTUAL-SKIN:36414.9 VIRTUAL-SKIN-GPU:36414.9 
+07-26 12:30:30.864 I/pixel-thermal( 2092): VIRTUAL-SKIN-SPEAKER:33.6652 raw data: VIRTUAL-SKIN-SPEAKER:33665.2 VIRTUAL-SKIN-SPEAKER-SUB-0:32068.6 VIRTUAL-SKIN-SPEAKER-SUB-1:33665.2 VIRTUAL-SKIN-SPEAKER-SUB-2:33545 VIRTUAL-SKIN-SPEAKER-SUB-3:33397.8 battery:36300 cam_therm:36091 charge_therm:40883 disp_therm:36001 neutral_therm:38227 north_therm:35801 quiet_therm:36246 soc_therm:37760 usb_pwr_therm:37003 
+07-26 12:30:30.867 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-WIRED:36.1971 raw data: NO_WLC:1 VIRTUAL-SKIN-CHARGE:36197.1 VIRTUAL-SKIN-CHARGE-SUB-0:35708 VIRTUAL-SKIN-CHARGE-SUB-1:34858.3 VIRTUAL-SKIN-CHARGE-SUB-2:35711.9 VIRTUAL-SKIN-CHARGE-SUB-3:35879.4 VIRTUAL-SKIN-CHARGE-SUB-4:36197.1 VIRTUAL-SKIN-CHARGE-SUB-5:35750.8 VIRTUAL-SKIN-CHARGE-SUB-6:34460.7 VIRTUAL-SKIN-CHARGE-WIRED:36197.1 WLC_CHECK:1 battery:36300 cam_therm:36091 charge_therm:40883 disp_therm:36001 neutral_therm:38227 north_therm:35801 quiet_therm:36246 soc_therm:37760 thb_hda:54 usb_pwr_therm:37003 
+07-26 12:30:30.867 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-WIRED power_budget=3685.09 err=1.80292 s_power=2404 time_elapsed_ms=7017 p=182.095 i=1099 d=0 compensation=0 budget transient=0 control target=2
+07-26 12:30:30.867 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-WIRED power budget=3648.73 after (PARTIAL_SYSTEM_POWER: 363.68 mW, cdev_weight: 0.100000) is excluded
+07-26 12:30:30.867 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-WIRED binded power rails: (PARTIAL_SYSTEM_POWER: 363.68 mW, cdev_weight: 0.100000)
+07-26 12:30:30.868 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-PERSIST:36.1971 raw data: VIRTUAL-SKIN-CHARGE:36197.1 VIRTUAL-SKIN-CHARGE-PERSIST:36197.1 
+07-26 12:30:30.868 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-PERSIST power_budget=3919.68 err=4.80292 s_power=2066 time_elapsed_ms=7017 p=787.679 i=1066 d=0 compensation=0 budget transient=0 control target=2
+07-26 12:30:30.868 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-PERSIST power budget=3861.49 after (PARTIAL_SYSTEM_POWER: 363.68 mW, cdev_weight: 0.160000) is excluded
+07-26 12:30:30.868 I/pixel-thermal( 2092): VIRTUAL-SKIN-CHARGE-PERSIST binded power rails: (PARTIAL_SYSTEM_POWER: 363.68 mW, cdev_weight: 0.160000)
+07-26 12:30:31.077 I/BugleRcsEngine( 4170): getConfigServerUrl without simId [CONTEXT log_prefix="ProvisioningServerUtil" thread_id=111 ]
+07-26 12:30:31.121 D/ActivityManager( 1659): sync unfroze 4887 com.google.android.apps.messaging for 7
+07-26 12:30:31.123 W/ProcessStats( 1659): Tracking association SourceState{da39118 com.google.android.apps.messaging:rcs/10160 BFgs #158029} whose proc state 4 is better than process ProcessState{7563de9 com.google.android.apps.messaging/10160 pkg=com.google.android.apps.messaging} proc state 15 (94 skipped)
+07-26 12:30:31.126 D/BackgroundInstallControlService( 1659): Package event received: 0
+07-26 12:30:31.265 I/AiAiStatsd( 4126): (REDACTED) Usage metrics: %d features enabled, %d features used for date %s.
+07-26 12:30:31.265 I/AiAiStatsd( 4126): (REDACTED) AiAi is used for the day (%s): %s, the week: %s
+07-26 12:30:31.272 I/AiAiStatsd( 4126): (REDACTED) Uploading atoms for date: %s.
+07-26 12:30:31.282 I/AiAiStatsd( 4126): (REDACTED) Total days uploaded: %d days.
+07-26 12:30:31.296 I/Bugle   ( 4887): BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of cusf@dfba9e1
+07-26 12:30:31.330 I/ForwardSyncCache( 4887): reclaimMemory: Clearing caches
+07-26 12:30:31.353 I/BugleRcsEngine( 4170): Using config server URL from dhww [CONTEXT log_prefix="ProvisioningServerUtil" thread_id=111 ]
+07-26 12:30:31.360 W/Bugle   ( 4887): TextClassifierLibManagerImpl: Reclaiming memory at level: 40
+07-26 12:30:31.363 I/ForwardSyncCache( 4887): reclaimMemory: Clearing caches
+07-26 12:30:31.365 W/Bugle   ( 4887): TextClassifierLibManagerImpl: Reclaiming memory at level: 40
+07-26 12:30:31.366 I/ForwardSyncCache( 4887): reclaimMemory: Clearing caches
+07-26 12:30:31.369 W/Bugle   ( 4887): TextClassifierLibManagerImpl: Reclaiming memory at level: 40
+07-26 12:30:31.420 I/bctd    ( 4147): (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+07-26 12:30:31.596 I/pixel-thermal( 2092): disp_therm:36.001 raw data: disp_therm:36001 
+07-26 12:30:31.605 I/pixel-thermal( 2092): VIRTUAL-USB-UI:1 raw data: USB-MINUS-NEUTRAL:-1224 USB-MINUS-QUIET:757 USB_QUIET_RFFE:757 VIRTUAL-USB-UI:1 VIRTUAL-USB-UI-SUB0:0 VSYS_PWR_RFFE:0 neutral_therm:38227 quiet_therm:36246 usb_pwr_therm:37003 
+07-26 12:30:31.606 I/pixel-thermal( 2092): usb_pwr_therm:37.003 raw data: usb_pwr_therm:37003 
+07-26 12:30:31.606 I/pixel-thermal( 2092): cam_therm:36.091 raw data: cam_therm:36091 
+07-26 12:30:31.607 I/pixel-thermal( 2092): VIRTUAL-USB-THROTTLING:1 raw data: USB-MINUS-NEUTRAL:-1224 USB-MINUS-QUIET:757 USB_QUIET_RFFE:757 VIRTUAL-USB-THROTTLING:1 VIRTUAL-USB-THROTTLING-SUB0:0 usb_pwr_therm:37003 
